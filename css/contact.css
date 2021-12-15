@@ -1,0 +1,67 @@
+.section1{
+    background-image: linear-gradient(#2A5470, #4C4177);
+    height:700px;
+    width:100%;
+}
+
+.section2{
+    position:relative;
+    left:30%;
+    top:100px;
+    border: 15px solid white;
+    width:20%;
+
+}
+
+input{
+    width:98%;
+    min-height:60px;
+    background-image: linear-gradient(#2A5470, #4C4177);
+    color:white;
+}
+
+textarea{
+    width:99%;
+    min-height:150px;
+    background-image: linear-gradient(#2A5470, #4C4177);
+    color: white;
+}
+
+.section3{
+    position:absolute;
+    background-image: linear-gradient(#0000002f, rgb(0, 0, 0));
+    right:25%;
+    width:25%;
+    color:white;    
+    min-height:400px;
+    top:490px;
+
+}
+
+.contact_info{
+    position:relative;
+    top:100px;
+    padding:0px 0px 50px 20px;
+    left:20%;
+    font-size:20px;
+
+}
+
+@media (max-width:700px){
+    .section2{
+        width:100%;
+        top:auto;
+        left:0%;
+        border:5px;
+        
+    }
+    .section3{
+        width:100%;
+        top:auto;
+        right:0%;
+    }
+    .contact_info{
+        left:0%;
+    }
+
+}
