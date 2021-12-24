@@ -16,7 +16,8 @@
             <div class="nav-container">
                 <div class="brand">
                     <a href="index.php">
-                        <img src="images/hrc_logo.jpeg" id="im01">
+                        <!-- <img src="images/hrc_logo.jpeg" id="im01"> -->
+                        <h1>HRC</h1>
                     </a>
                 </div>
                 <nav>
@@ -90,8 +91,8 @@
             </div>
         </section>
         <div class="page_header">
-        <img src="images/hrc_logo.jpeg" alt="Logo" class="page_logo">
-        <div class="page_heading"><?php echo($title) ?></div>
+        <img src="images/hrc_logo2.jpeg" alt="Logo" class="page_logo">
+        <!-- <div class="page_heading"><?php echo($title) ?></div> -->
         </div>
     </header>
     <script src="js/header.js"></script>

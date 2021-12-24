@@ -8,6 +8,7 @@
         <input type="text" placeholder="Enter Your Email">
         <br>    
         <textarea placeholder="Enter Your Message"></textarea>
+        <button>Send</button>
    </div>
    <div class="section3">
        <div class="contact_info">Contact</div>
