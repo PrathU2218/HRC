@@ -1,6 +1,11 @@
 <?php $title="Contact Us"; include "header.php"; ?>
 <link rel="stylesheet" type="text/css" href="css/contact.css" />
 
+<div class="page_header">
+        <img src="images/hrc_logo2.jpeg" alt="Logo" class="page_logo">
+        <!-- <div class="page_heading"><?php echo($title) ?></div> -->
+</div>
+
 <div class="section1">
    <div class="section2">
         <input type="text" placeholder="Enter your Name">
