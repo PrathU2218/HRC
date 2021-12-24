@@ -88,7 +88,7 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </div>     
         </section>
         <div class="page_header">
         <img src="images/hrc_logo2.jpeg" alt="Logo" class="page_logo">

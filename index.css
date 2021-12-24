@@ -1,0 +1,71 @@
+
+
+#i01 {
+    /* background: linear-gradient(113.38deg, #2A5470 40.93%, #4C4177 95.22%); */
+    padding: 40px;
+    color: white;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/IMG_Academy_Logo.svg/1200px-IMG_Academy_Logo.svg.png') */
+    background-image: url('C://xampp/htdocs/xampp/hrc/images/unsplash_QckxruozjRg.jpg');
+    backdrop-filter: blur(4px);
+    background: linear-gradient(90.09deg, #000000 32.86%, rgba(0, 0, 0, 0) 96.86%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#i05 {
+    backdrop-filter: blur(4px);
+    background: linear-gradient(90.09deg, #000000 32.86%, rgba(0, 0, 0, 0) 96.86%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#i02 {
+    width: 70%;
+    height: 50%;
+    /* margin-left: 5%; */
+    /* background-image: linear-gradient(to left, currentColor 5%, transparent 30%); */
+}
+
+.aboutus {
+    color: white;
+
+}
+
+.wrap {
+    column-count: 2;
+}
+
+.section3{
+    position:absolute;
+    /* background-image: linear-gradient(#0000002f, rgb(0, 0, 0)); */
+    /* right:25%; */
+    width:35%;
+    left: 60%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    top:490px;
+}
+
+.section1{
+    background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
+    height:700px;
+    width:100%;
+}
+
+.section2{
+    position:relative;
+    /* left:30%; */
+    /* top:100px; */
+}
+
+#i03 {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 82px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
