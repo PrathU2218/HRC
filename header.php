@@ -87,11 +87,11 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
+            </div>     
         </section>
-        <div class="page_header">
+        <!-- <div class="page_header">
         <img src="images/hrc_logo.jpeg" alt="Logo" class="page_logo">
-        <div class="page_heading"><?php echo($title) ?></div>
+        <div class="page_heading"><?php echo($title) ?></div> -->
         </div>
     </header>
     <script src="js/header.js"></script>
