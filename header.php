@@ -16,15 +16,14 @@
             <div class="nav-container">
                 <div class="brand">
                     <a href="index.php">
-                        <!-- <img src="images/hrc_logo.jpeg" id="im01"> -->
-                        <h1>HRC</h1>
+                        <img src="images/Group 14.png" id="im01">
                     </a>
                 </div>
                 <nav>
                     <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
                     <ul class="nav-list">
                         <li>
-                            <a href="#!">About us</a>
+                            <a href="about.php">About us</a>
                             <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Intro</a>
@@ -38,13 +37,24 @@
                             <a href="#!">What we do</a>
                             <ul class="nav-dropdown">
                                 <li>
-                                    <a href="#!">GSW (Flagship event)</a>
+                                    <a href="gsw.php">GSW (Flagship event)</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Events</a>
+                                    <a href="sessions.php">Hands-on Sessions</a>
+                                    <ul class="nav-dropdown">
+                                        <li>
+                                            <a href="#!">Antenna Making and Satellite Tracking</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">FM Transmitter</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">How Things Work</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="#!">Tasks</a>
+                                    <a href="#!">Technical Activities</a>
                                 </li>
                             </ul>
                         </li>
@@ -88,7 +98,7 @@
                         </li>
                     </ul>
                 </nav>
-            </div>     
+            </div>
         </section>
         <!-- <div class="page_header">
         <img src="images/hrc_logo.jpeg" alt="Logo" class="page_logo">

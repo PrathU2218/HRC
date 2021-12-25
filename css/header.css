@@ -3,7 +3,7 @@ body {
 }
 
 .navigation {
-    height: 70px;
+    height: 105px;
     background: #262626;
 }
 .brand {
@@ -44,6 +44,8 @@ nav ul li a, nav ul li a:visited {
     background: #262626;
     color: #fff;
     text-decoration: none;
+    top: 15px;
+    position: relative;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
     background: #2581dc;
@@ -149,8 +151,8 @@ article {
 }
 
 #im01 {
-    height: 70px;
-    width: 90px;
+    height: 105px;
+    width: 100px;
 }
 
 .page_header{

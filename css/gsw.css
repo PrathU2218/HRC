@@ -1,0 +1,57 @@
+.whole{
+    background-image: linear-gradient(#2A5470, #4C4177);
+    min-height: 800px;
+}
+
+#i02left {
+    color: white; display: flex; align-items: center;  padding: 0px;  margin-top:40px;  background-size: auto; min-height: 70vh;
+    background-image: url("../images/mask.png");
+    background-repeat:no-repeat;
+    background-position: right;
+    position: absolute; 
+    width: 100%;
+    right:0px;
+}
+
+#i05 {
+    position:relative;
+    right:10%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    width:45%;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#i03 {
+    position: relative;
+    right:10%;
+     font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 82px;
+    margin-top: 0px;
+}
+
+
+@media (max-width:400px) {
+    #i02left{
+        background-image:none;
+    }
+    #i05{
+        width: auto;
+        padding: 0px 10px;
+        font-size: 15px;
+        right:auto;
+    }
+    #i03{
+        padding: 0px 10px;
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 10px;
+        right:auto;
+    }
+}
