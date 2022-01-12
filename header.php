@@ -37,11 +37,11 @@
                             <a href="#!">What we do</a>
                             <ul class="nav-dropdown">
                                 <li>
-                                    <a href="gsw.php">GSW (Flagship event)</a>
+                                    <a href="gsw.php" style="margin:0px;">GSW (Flagship event)</a>
                                 </li>
                                 <li>
-                                    <a href="sessions.php">Hands-on Sessions</a>
-                                    <ul class="nav-dropdown">
+                                    <a href="sessions.php" style="margin:0px;">Hands-on Sessions</a>
+                                    <!-- <ul class="nav-dropdown">
                                         <li>
                                             <a href="#!">Antenna Making and Satellite Tracking</a>
                                         </li>
@@ -51,20 +51,12 @@
                                         <li>
                                             <a href="#!">How Things Work</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
                                 <li>
-                                    <a href="#!">Technical Activities</a>
+                                    <a href="#!" style="margin:0px;">Technical Activities</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="#!">Blog</a>
-                            <!-- <ul class="nav-dropdown">
-                  <li>
-                    <a href="#!">Stones of a Naive Radio</a>
-                  </li>
-                </ul> -->
                         </li>
                         <li>
                             <a href="#!">Ham Exam</a>
@@ -74,9 +66,17 @@
                     </li>
                   </ul> -->
                         </li>
-                        <li>
-                            <a href="#!">Team</a>
-                            <!-- <ul class="nav-dropdown">
+                        <span class="nav_right">
+                            <li>
+                                <a href="#!">
+                                    <span class="big">
+                                        <img src="images/team.png" class="nav_icon">
+                                    </span>
+                                    <span class="small">
+                                        Team
+                                    </span>
+                                </a>
+                                <!-- <ul class="nav-dropdown">
                   <li>
                     <a href="#!">HRC Members</a>
                   </li>
@@ -84,18 +84,41 @@
                     <a href="#!">Past Managers</a>
                   </li>
                 </ul> -->
-                        </li>
-                        <li>
-                            <a href="#!">Media</a>
-                            <!-- <ul class="nav-dropdown">
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <span class="big">
+                                        <img src="images/media.png" class="nav_icon">
+                                    </span>
+                                    <span class="small">
+                                        Media
+                                    </span>
+                                </a>
+                                <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Featured articles</a>
                     </li>
                   </ul> -->
-                        </li>
-                        <li>
-                            <a href="contact.php">Contact us</a>
-                        </li>
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <span class="big">
+                                        <img src="images/blog.png" class="nav_icon">
+                                    </span>
+                                    <span class="small">
+                                        Blogs
+                                    </span>
+                                </a>
+                                <!-- <ul class="nav-dropdown">
+                  <li>
+                    <a href="#!">Stones of a Naive Radio</a>
+                  </li>
+                </ul> -->
+                            </li>
+                            <li>
+                                <a href="contact.php" class="nav_contact">Contact us</a>
+                            </li>
+                            <span>
                     </ul>
                 </nav>
             </div>
@@ -105,4 +128,5 @@
         <div class="page_heading"><?php echo($title) ?></div> -->
         </div>
     </header>
+
     <script src="js/header.js"></script>
