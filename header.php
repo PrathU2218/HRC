@@ -7,6 +7,7 @@
     <?php if($title===""){$title='Default';}?>
     <title><?php if(isset($title)){echo $title;}?> | Ham Radio Club &mdash; IIT Bombay</title>
     <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
@@ -21,6 +22,7 @@
                 </div>
                 <nav>
                     <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                    <div id="nav01">
                     <ul class="nav-list">
                         <li>
                             <a href="about.php">About us</a>
@@ -35,7 +37,7 @@
                         </li>
                         <li>
                             <a href="#!">What we do</a>
-                            <ul class="nav-dropdown">
+                            <!-- <ul class="nav-dropdown">
                                 <li>
                                     <a href="gsw.php">GSW (Flagship event)</a>
                                 </li>
@@ -56,10 +58,10 @@
                                 <li>
                                     <a href="#!">Technical Activities</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
-                        <li>
-                            <a href="#!">Blog</a>
+                        <!-- <li>
+                            <a href="#!">Blog</a> -->
                             <!-- <ul class="nav-dropdown">
                   <li>
                     <a href="#!">Stones of a Naive Radio</a>
@@ -74,8 +76,19 @@
                     </li>
                   </ul> -->
                         </li>
+                        <div style="margin-left: 900px;">
+                        <li style="padding-right: 20px;">
+                            <i class = "fa fa-users fa-lg" id="icons"></i>
+                        </li>
                         <li>
-                            <a href="#!">Team</a>
+                            <i class = "fa fa-youtube-play fa-lg" id="icons"></i>
+                        </li>
+                        <li>
+                            <i class = "fa fa-comment-alt-edit" id="icons"></i>
+                        </li>
+</div>
+                        <!-- <li>
+                            <a href="#!">Team</a> -->
                             <!-- <ul class="nav-dropdown">
                   <li>
                     <a href="#!">HRC Members</a>
@@ -84,19 +97,20 @@
                     <a href="#!">Past Managers</a>
                   </li>
                 </ul> -->
-                        </li>
+                        <!-- </li>
                         <li>
-                            <a href="#!">Media</a>
+                            <a href="#!">Media</a> -->
                             <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Featured articles</a>
                     </li>
                   </ul> -->
-                        </li>
+                        <!-- </li>
                         <li>
                             <a href="contact.php">Contact us</a>
-                        </li>
+                        </li> -->
                     </ul>
+                    </div>
                 </nav>
             </div>
         </section>

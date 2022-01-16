@@ -2,6 +2,20 @@ body {
     margin: 0px;
 }
 
+#icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 200%;
+    height: 300%;
+}
+
+#nav00 {
+    float: left; 
+    margin-left: 100px;
+}
+
 .navigation {
     height: 105px;
     background: #262626;
@@ -26,7 +40,8 @@ body {
     margin: 0 20px;
 }
 nav {
-    float: right;
+    float: left;
+    margin-left: 100px;
 }
 nav ul {
     list-style: none;
@@ -62,6 +77,7 @@ nav ul li ul li a {
     padding: 15px;
     line-height: 20px;
 }
+
 .nav-dropdown {
     position: absolute;
     display: none;
