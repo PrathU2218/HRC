@@ -37,59 +37,52 @@
                         </li>
                         <li>
                             <a href="#!">What we do</a>
-                            <!-- <ul class="nav-dropdown">
+                            <ul class="nav-dropdown">
                                 <li>
-                                    <a href="gsw.php">GSW (Flagship event)</a>
+                                    <a href="gsw.php" style="margin:0px;">GSW (Flagship event)</a>
                                 </li>
+                                
                                 <li>
-                                    <a href="sessions.php">Hands-on Sessions</a>
-                                    <ul class="nav-dropdown">
-                                        <li>
-                                            <a href="#!">Antenna Making and Satellite Tracking</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">FM Transmitter</a>
-                                        </li>
-                                        <li>
-                                            <a href="#!">How Things Work</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                    <a href="sessions.php" style="margin:0px;">Hands-on Sessions</a>
+                                       </li>
+</ul>
+                                        <!-- <ul class="nav-dropdown">
+                                            <li>
+                                                <a href="#!">Antenna Making and Satellite Tracking</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">FM Transmitter</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">How Things Work</a>
+                                            </li>
+</ul> -->
+                             
+                                <!-- </li>
                                 <li>
-                                    <a href="#!">Technical Activities</a>
+                                    <a href="#!" style="margin:0px;">Technical Activities</a>
                                 </li>
-                            </ul> -->
-                        </li>
-                        <!-- <li>
-                            <a href="#!">Blog</a> -->
-                            <!-- <ul class="nav-dropdown">
-                  <li>
-                    <a href="#!">Stones of a Naive Radio</a>
-                  </li>
-                </ul> -->
+                            </ul>
                         </li>
                         <li>
                             <a href="#!">Ham Exam</a>
-                            <!-- <ul class="nav-dropdown">
+                            <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Process</a>
                     </li>
-                  </ul> -->
+                  </ul>
                         </li>
-                        <div style="margin-left: 900px;">
-                        <li style="padding-right: 20px;">
-                            <i class = "fa fa-users fa-lg" id="icons"></i>
-                        </li>
-                        <li>
-                            <i class = "fa fa-youtube-play fa-lg" id="icons"></i>
-                        </li>
-                        <li>
-                            <i class = "fa fa-comment-alt-edit" id="icons"></i>
-                        </li>
-</div>
-                        <!-- <li>
-                            <a href="#!">Team</a> -->
-                            <!-- <ul class="nav-dropdown">
+                        <span class="nav_right">
+                            <li>
+                                <a href="#!">
+                                    <span class="big">
+                                        <img src="images/team.png" class="nav_icon">
+                                    </span>
+                                    <span class="small">
+                                        Team
+                                    </span>
+                                </a>
+                           <ul class="nav-dropdown">
                   <li>
                     <a href="#!">HRC Members</a>
                   </li>
@@ -97,18 +90,41 @@
                     <a href="#!">Past Managers</a>
                   </li>
                 </ul> -->
-                        <!-- </li>
-                        <li>
-                            <a href="#!">Media</a> -->
-                            <!-- <ul class="nav-dropdown">
+                            <!-- </li> -->
+                            <li>
+                                <a href="#!">
+                                    <span class="big">
+                                        <img src="images/media.png" class="nav_icon">
+                                    </span>
+                                    <span class="small">
+                                        Media
+                                    </span>
+                                </a>
+                                <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Featured articles</a>
                     </li>
                   </ul> -->
-                        <!-- </li>
-                        <li>
-                            <a href="contact.php">Contact us</a>
-                        </li> -->
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <span class="big">
+                                        <img src="images/blog.png" class="nav_icon">
+                                    </span>
+                                    <span class="small">
+                                        Blogs
+                                    </span>
+                                </a>
+                                <!-- <ul class="nav-dropdown">
+                  <li>
+                    <a href="#!">Stones of a Naive Radio</a>
+                  </li>
+                </ul> -->
+                            </li>
+                            <li>
+                                <a href="contact.php" class="nav_contact">Contact us</a>
+                            </li>
+                            <span>
                     </ul>
                     </div>
                 </nav>
@@ -119,4 +135,5 @@
         <div class="page_heading"><?php echo($title) ?></div> -->
         </div>
     </header>
+
     <script src="js/header.js"></script>

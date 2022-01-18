@@ -1,0 +1,42 @@
+.whole{
+    background-image: linear-gradient(#2A5470, #4C4177);
+    min-height: 800px;
+}
+
+.session_buttons button{
+    color:white;
+    background-color: #4C4177;
+    border-radius: 5px;
+    z-index:1;
+    position:fixed; 
+}
+
+.session_buttons{
+    padding:50px 0px;
+}
+
+.session_heading{
+    color:white;
+    font-size:48px;
+    text-align: center;
+    padding:1rem;
+}
+
+.session_content{
+    color:white;
+    font-size:18px;
+    padding: 10px 10px 10px 0px;
+    /* padding-left: 50px; */
+   position:relative;
+   top:40%;
+   text-align: center   ;
+}
+
+.MagicScroll a{
+    display: none;
+}
+
+.MagicScroll img {
+    height:400px;
+   padding:0px 10px;
+}
