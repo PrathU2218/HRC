@@ -68,7 +68,7 @@
                         </li>
                         <span class="nav_right">
                             <li>
-                                <a href="#!">
+                                <a href="team.php">
                                     <span class="big">
                                         <img src="images/team.png" class="nav_icon">
                                     </span>

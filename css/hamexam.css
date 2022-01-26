@@ -119,3 +119,52 @@ line-height: 29px;
     margin-left: 109px;
     height: 473px;
 }
+@media screen and (max-width: 800px){
+    #text1{
+        font-size: 150px;
+    }
+    #text2{
+        font-size: 30px;
+    }
+    #text3{
+        margin-left: 0px;
+        width: 100%
+    }
+    #text4{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    #text5{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    #text6{
+        margin-left: 0px;
+        display:inline-block;
+        
+    }
+    #text7{
+        margin-left: 0px;
+    }
+    #text8{
+        margin-left: 0px;
+    }
+    #text9{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #text10{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .img1{
+        height: 300px;
+        margin-left: 0px;
+    }
+    #list{
+        margin-left: 0px;
+    }
+
+
+}
