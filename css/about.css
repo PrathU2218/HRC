@@ -1,7 +1,7 @@
 #i01 {background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
      margin-bottom: 0px;
+     min-height: 100px;
 }
-    
 /* #i02 {
     color: white; padding: 20px; margin-left: 40px; margin-top:0px; margin-right: 40px; background-image: url(https://images.ctfassets.net/hrltx12pl8hq/61DiwECVps74bWazF88Cy9/2cc9411d050b8ca50530cf97b3e51c96/Image_Cover.jpg?fit=fill&w=480&h=270);
    background-image: url(mask.png);
@@ -17,7 +17,7 @@
     line-height: 82px;
     position: relative;
     bottom:50px;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 
 #i03left {
@@ -29,7 +29,7 @@
     line-height: 82px;
     transform: scalex(-1);
     text-align: right;
-    padding-right: 5%;
+    padding-right: 2%;
 
 }
 
@@ -39,10 +39,10 @@
     align-items: center;
     padding: 0px;
     margin-left: 0px;
-    margin-top:30px;
+    margin-top:80px;
     margin-right: 0px;
     background-size: auto;
-    min-height: 70vh;
+    min-height: 80vh;
     background-image: url("../images/mask.png");
     background-repeat:no-repeat;
     background-position: right;
@@ -54,13 +54,13 @@
     display: flex;
     align-items: center;
     /* margin: 30px 0px; */
-    padding-left: 5%;
-    padding-top:30px;
+    padding-left: 0%;
+    padding-top:80px;
 }
 
 
 #i02left {
-    color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 70vh;
+    color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 80vh;
     background-image: url("../images/mask.png");
     background-repeat:no-repeat;
     background-position: right;
@@ -76,7 +76,7 @@
     text-align: left;
     position: relative;
     bottom:30px;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 #i04 {
     margin-left: 20px;  font-family: Lato;
@@ -87,7 +87,7 @@
     color: #FFFFFF;
     transform: scalex(-1);
     text-align: right;
-    padding-right: 5%;
+    padding-right: 2%;
 }
 
 #i04below {
@@ -97,6 +97,8 @@
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
+    position: relative;
+    top:25%;
 }
 
 #i06 {
@@ -111,3 +113,24 @@
   .column {
     flex: 50%;
   }
+
+.image-left{
+    float: right;
+}
+
+@media (max-width:400px) {
+    #i02, #i02left{
+        background-image: none;
+    }
+    #i05, #i03left, #i04{
+        width: 100%;
+    }
+    #i03left, #i04{
+        margin-left: 0px;
+        text-align: left;
+    }
+    #i03, #i05{
+        padding-left: 0px;
+    }
+
+}

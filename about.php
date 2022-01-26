@@ -1,5 +1,4 @@
-<?php $title = 'About';
-include 'header.php'; ?>
+<?php $title = 'ABOUT US'; include 'header.php'; ?>
 
 <head>
     <link rel="stylesheet" href="css/about.css" />
@@ -12,12 +11,12 @@ include 'header.php'; ?>
 
 <body>
     <div class="container-fluid" id="i01">
-        <div style="padding:20px 0px;"></div>
+    <div style="min-height:350px;"></div>
         <div id="i02left">
             <div>
-                <p id="i03">
+                <!-- <p id="i03">
                     About Us
-                </p>
+                </p> -->
                 <div id="i05">
                     Ham Radio Club has the vision to foster and grow the amateur radio community at IIT Bombay and beyond. Ham radio is a hobby and technology that allows us to interact with people across the globe using wireless communication. As a subsidiary of the IIT Bombay Student Satellite Program, we aim to set up a full-fledged autonomous ground station with advanced and updated technology while attaining numerous ham radio licenses.
                 </div>
@@ -37,7 +36,7 @@ include 'header.php'; ?>
             </div>
         </div>
 
-        <div id="i02left" style="margin-top:30px">
+        <div id="i02left" style="margin-top:80px">
             <div>
                 <p id="i03">
                     OUR RADIO SHACK
@@ -65,7 +64,7 @@ include 'header.php'; ?>
                 </div>
                 <div class="column">
                     <div>
-                        <img src="./images/antenna.png" id="i06"></img>
+                        <img src="./images/yagi.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
@@ -102,7 +101,7 @@ include 'header.php'; ?>
                 </div>
                 <div class="column">
                     <div>
-                        <img src="./images/base.jpeg" id="i06"></img>
+                        <img src="./images/base.jpeg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
@@ -139,7 +138,7 @@ include 'header.php'; ?>
                 </div>
                 <div class="column">
                     <div>
-                        <img src="./images/amplifier.jpg" id="i06"></img>
+                        <img src="./images/amplifier.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
@@ -176,7 +175,7 @@ include 'header.php'; ?>
                 </div>
                 <div class="column">
                     <div>
-                        <img src="./images/rotator.jpg" id="i06"></img>
+                        <img src="./images/rotator.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>

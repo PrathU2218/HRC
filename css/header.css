@@ -164,6 +164,36 @@ article {
     width: 100px;
 }
 
+
+#top-heading {
+    width: 100%;
+    text-align: center;
+}
+#text1{
+position: absolute;
+width: 100%;
+top: 286px;
+font-family: Lora;
+font-style: normal;
+font-weight: bold;
+font-size: 9vw;
+display: inline;
+transform: translate(-50%,-50%);
+color: rgba(0, 0, 0, 0.22);
+}
+#text2{
+position: absolute;
+left: 50%;
+top: 295px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 54px;
+transform: translate(-50%,-50%);
+color: #FFFFFF;
+background: transparent;
+white-space: nowrap;
+}
 /* .page_header{
     position: relative;
   } */
@@ -233,5 +263,7 @@ article {
         float:none;
         right: 0%;
     }
+    #text1{
+        display: none;
+    }
 }
-

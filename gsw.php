@@ -1,4 +1,4 @@
-<?php $title="GSW"; include "header.php"; ?>
+<?php $title="Ground Station Workshop"; include "header.php"; ?>
 
 <head>
     <link rel="stylesheet" href="css/gsw.css">
@@ -8,14 +8,14 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </head>
-
-<body>
-    <div class="whole">
+    <div style="min-width:100px;">
+    <div class="whole"> 
+    <div style="min-height:350px;"></div>
         <div class="container" id="i02left">
             <div style="align-items: center">
-                <p id="i03">
+                <!-- <p id="i03">
                     Ground Station Workshop
-                </p>
+                </p> -->
                 <div id="i05">
                     Our annual flagship event, The Ground Station Workshop is majorly aimed at educating engineering college
                     students and enthusiasts about ground stations so they could set up ground stations or initiate space
@@ -38,6 +38,6 @@
             </div>
         </div>
     </div>
-</body>
+</div>
 
 <?php include "footer.php";?>

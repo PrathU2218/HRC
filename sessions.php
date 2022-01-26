@@ -119,7 +119,7 @@
     </div>
     </div>
 
-    <script>
+    <!-- <script>
     function myFunction1() {
         document.getElementById("session2").style.display = "none";
         document.getElementById("session3").style.display = "none";
@@ -136,7 +136,7 @@
         document.getElementById("session2").style.display = "none";
         document.getElementById("session3").style.display = "block";
     }
-    </script>
+    </script> -->
 </body>
 
 <?php include "footer.php"; ?>

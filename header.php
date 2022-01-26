@@ -127,6 +127,10 @@
         <img src="images/hrc_logo.jpeg" alt="Logo" class="page_logo">
         <div class="page_heading"><?php echo($title) ?></div> -->
         </div>
+        <div id="top-heading">
+            <div id="text1"><?php echo $title;?> </div>
+            <div id="text2"><?php echo $title;?></div>
+        </div>
     </header>
 
     <script src="js/header.js"></script>

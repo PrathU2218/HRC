@@ -1,4 +1,4 @@
-<?php $title = 'hamexam';
+<?php $title = 'HAM RADIO EXAM';
 include 'header.php'; ?>
 
 <head>
@@ -12,8 +12,6 @@ include 'header.php'; ?>
     
 </head>
 <div class="container-fluid" id="i1">
-    <div id="text1">HAM</div>
-    <div id="text2">HAM RADIO EXAM</div>
    <div class="row">
        <div class="col-xs" id="text3">
            You cannot enjoy all the benefits of ham radio without having a<br>Ham Radio License. You can only receive signals but you need to<br>have a licence and a callsign for legally transmitting on ham radio.<br> Once you have the ham radio license, you can talk to other hams,<br> build your own ground station, participate in contests and foxhunts<br> and also provide communication assistance during emergencies. 
