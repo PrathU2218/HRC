@@ -56,7 +56,7 @@ include 'header.php'; ?>
           <div class="col-sm" id="text8">
               <p id="t1">Following is the procedure for the application of Ham Radio License Exam:</p>
               <ul id="list">
-                  <li>Application can be downloaded from <a href ="https://saralsanchar.gov.in/" class="link1">https://saralsanchar.gov.in/</a>. Exam application along with the fee of Rs. 100 is to be paid online. The examination can be conducted in your own town provided there are a sufficient number of applicants.</li>
+                  <li>Application can be downloaded from <a href ="https://saralsanchar.gov.in/" class="link1">here</a>. Exam application along with the fee of Rs. 100 is to be paid online. The examination can be conducted in your own town provided there are a sufficient number of applicants.</li>
                   <li>On passing the examination, you will be awarded the license on payment of the required license fee: Rs. 1000 for 20 years and Rs. 2000 if you want the license for a lifetime (80 years), on <a href="http://bharatkosh.gov.in/">http://bharatkosh.gov.in/</a></li>
               </ul>
          </div>
