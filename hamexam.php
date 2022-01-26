@@ -51,7 +51,7 @@ include 'header.php'; ?>
    <div class="container-fluid">
        <div class="row">
             <div class="col-sm">
-                <img src="\MorseMania.jpg" class="img1">
+                <img src="images\MorseMania.jpg" class="img1">
             </div>
           <div class="col-sm" id="text8">
               <p id="t1">Following is the procedure for the application of Ham Radio License Exam:</p>

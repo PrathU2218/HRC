@@ -59,7 +59,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#!">Ham Exam</a>
+                            <a href="hamexam.php">Ham Exam</a>
                             <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Process</a>

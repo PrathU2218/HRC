@@ -13,12 +13,20 @@
 
 <body>
     <div class="whole">
-    <div class="session_buttons">
-        <button onclick="myFunction1()" style=" position:absolute; left:10%;">Antenna Making and Satellite Tracking </button>
-        <button onclick="myFunction2()" style=" position:absolute; left:45%;">FM Transmitter</button>
-        <button onclick="myFunction3()" style="position:absolute; right:20%;">How Things Work</button>
-    </div>
-    <hr style="position:relative; bottom:50px; color:white;">
+        <!-- <br>
+        <br> -->
+    <!-- <div class="session_buttons">
+        <div>
+        <button onclick="myFunction1()" >Antenna Making and Satellite Tracking </button>
+        </div>
+        <div>
+        <button onclick="myFunction2()">FM Transmitter</button>
+        </div>
+        <div>
+        <button onclick="myFunction3()">How Things Work</button>
+        </div>
+    </div> -->
+    <!-- <hr style="position:relative; bottom:50px; color:white;"> -->
     <div class="container">
         <div id="session1">
 
