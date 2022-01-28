@@ -1,16 +1,32 @@
 <?php $title="Contact Us"; include "header.php"; ?>
 <link rel="stylesheet" type="text/css" href="css/blogs.css" />
 <!-- <div> -->
+  <script>
+    send = (num) => {
+    switch(num){
+      case 1:
+        window.location.href='https://www.google.com'
+      case 2:
+        window.location.href='https://www.google.com'
+      case 3:
+        window.location.href='https://www.google.com'
+      case 4:
+        window.location.href='https://www.google.com'
+      case 5:
+        window.location.href='https://www.google.com'
+    }
+  }
+  </script>
   <a href="https://hrciitb.wordpress.com/blog-2/" style="color: black;">
 <h1>HRC BLOGS</h1>
   </a>
-<div class="cards">
+<div class="cards" style="color: black;">
   <a class="card">
-    <div class="card-hero">
-      <img src="./images/ham101.jpg" width="288" />
+    <div class="card-hero" onClick="send()">
+      <img src="./images/ham101.jpg" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
-      <h3>HAM Radio 101</h3>
+      <h3 onClick="send(1)">HAM Radio 101</h3>
     </div>
     <div class="card-body">
       <p>A starting point and guide for any ham enthusiast out there with a special edition based on satellite tracking.
@@ -18,7 +34,7 @@
     </div>
     <div class="card-footer">
       <div class="footer-item">
-        <img src="./images/transmission_tales.jpg" class="avatar" width="32" height="32" />
+        <img src="./images/transmission_tales.jpg" class="img" width="32" height="32" />
       </div>
       <div class="footer-item">
         <strong>John Doe</strong>
@@ -28,13 +44,13 @@
   </a>
   <a class="card">
     <div class="card-hero">
-      <img src="./images/transmission_tales.jpg" width="288" />
+      <img src="./images/transmission_tales.jpg" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
       <h3>Transmission Tales</h3>
     </div>
     <div class="card-body">
-      <p>Our first series with 11 blogs on the history, uses, and trivia of ham radio.</p>
+      <p>Our first series with 11 blogs on the history, uses, and trivia of ham radio.</p><br><br>
     </div>
     <div class="card-footer">
       <div class="footer-item">
@@ -48,7 +64,7 @@
   </a>
   <a class="card">
     <div class="card-hero">
-      <img src="./images/communication_chronicles.jpg" width="288" />
+      <img src="./images/communication_chronicles.jpg" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
       <h3>Communication Chronicles</h3>
@@ -73,13 +89,13 @@
 <div class="cards">
   <a class="card">
     <div class="card-hero">
-      <img src="./images/ham.jpg" width="288" />
+      <img src="./images/ham.jpg" width="288" height="200" class="img" />
     </div>
     <div class="card-header">
       <h3>Highly Amateur Maestros (H.A.M.)</h3>
     </div>
     <div class="card-body">
-      <p>Intricate details and fresh aspects of ham radio through a 5 post series.</p>
+      <p>Intricate details and fresh aspects of ham radio through a 5 post series.</p><br><br><br>
     </div>
     <div class="card-footer">
       <div class="footer-item">
@@ -93,7 +109,7 @@
   </a>
   <a class="card">
     <div class="card-hero">
-      <img src="https://hrciitb.files.wordpress.com/2021/11/arsi-1.png?w=1024" width="288" />
+      <img src="https://hrciitb.files.wordpress.com/2021/11/arsi-1.png?w=1024" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
       <h3>Let’s Talk Ham: An interview series</h3>

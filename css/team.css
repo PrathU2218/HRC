@@ -1,99 +1,147 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  /* background: linear-gradient(#cddc39, #009688); */
+background: linear-gradient(113.38deg, #2A5470, #4C4177);
+
+}
+
+li {
+  list-style: none;
+}
+
+
+/* style member component */
+.list-members {
+  /* background: #ffe501; */
+background: #2A5470;
+  width: 80%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.member-image {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.member-image img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.member-image:hover img {
+  transform: scale(1.1);
+}
+
+.member-info {
+  width: 50%;
+  text-align: center;
+}
+
+.member-info p {
+  margin: 20px 0;
+}
+
+
+/* style social link */
+.social-link .fab {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #000;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.social-link .fab:hover {
+  background: #000;
+  color: #ffe501;
+  transform: translateY(-7px);
+}
+
+/* Membuat segitiga */
+.member-image::after {
+  content: '';
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  /* border-right: 15px solid #ffe501; */
+  border-right: 15px solid #4C4177;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+
+/* Merubah posisi member-image dengan member-info */
+@media screen and (min-width: 771px) {
+  .member:nth-child(4n+3) .member-info,
+  .member:nth-child(4n+4) .member-info {
+    order: 1;
   }
-  body {
-    background:#1D0E2E;
-    min-height:100vh;
-    font-family: 'Roboto', sans-serif;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
-  .teams {
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:center;
-  }
-  .card{
-    background:#2a1542;
-    padding:2rem;
-    display:flex;
-    flex-direction:column;
-   justify-content:space-between;
-    width:250px;
-    height:350px;
-    box-shadow:2px 4px 8px rgba(0,0,0,.2);
-    border-radius:5px;
-    animation:animate 4s linear infinite forwards;
-  }
-  .card:hover{
-    box-shadow:2px 2px 12px 2px rgba(74, 189, 154,.3),2px 2px 12px 2px rgba(71, 131, 204,.3);
-  
-  }
-  .card-top{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-  }
-  
-  .card-top img{
-    width:80px;
-    height:80px;
-    box-shadow:1px 1px 4px 2px rgba(255,255,255,.2);
-    border-radius:50%;
-  }
-  .card-top .name{
-    margin-top:10px;
-    color:#fff;
-    text-transform:capitalize;
-  }
-  .card-top .link {
-    color: #838985;
-    cursor:pointer;
-  }
-  .card-top .link::before{
-    content:"@"
-  }
-  .card-top .link:hover{
-    color:red;
-  }
-  .btn{
-    border:2px solid #1D0E2E;
-    padding:.6rem;
-    border-radius:30px;
-    color:#fff;
-    background:transparent;
-    cursor:pointer;
-    text-transform:capitalize;
-    transition:.2s easy-in-out;
-  }
-  .btn:hover{
-    background:#1D0E2E;
-    box-shadow:2px 4px 3px #1D0E2E;
-  }
-  
-  @keyframes animate{
-    0%{
-      border:2px solid red;
-    }
-    20%{
-      border:2px solid #4783cc;
-    } 
-    40%{
-      border:2px solid #ccaf47;
-    }
-    60%{
-      border:2px solid #ca47cc;
-    }
-    80%{
-      border:2px solid #d4555d;
-    } 
-    100%{
-      border:2px solid #b5a951;
-    }
+  .member:nth-child(4n+3) .member-image,
+  .member:nth-child(4n+4) .member-image {
+    order: 2;
   }
 
+  /* Merubah posisi sigitiga pada baris genap */
+  .member:nth-child(4n+3) .member-image::after,
+  .member:nth-child(4n+4) .member-image::after {
+    left: 0;
+    right: auto;
+    transform: translateY(-50%) rotateZ(180deg);
+  }
+}
+
+
+/* Mobile Styles */
+@media screen and (max-width: 770px) {
+  .list-members {
+    width: 95%;
+  }
+  .member {
+    flex-basis: 100%;
+    font-size: 14px;
+  }
+  .social-link .fab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .member:nth-child(even) .member-info {
+    order: 1;
+  }
+  .member:nth-child(even) .member-image {
+    order: 2;
+  }
+  
+  /* Merubah posisi sigitiga elemen genap */
+  .member:nth-child(even) .member-image::after {
+    left: 0;
+    right: auto;
+    transform: translateY(-50%) rotateZ(180deg);
+  }
+}

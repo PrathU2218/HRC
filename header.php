@@ -7,7 +7,6 @@
     <?php if($title===""){$title='Default';}?>
     <title><?php if(isset($title)){echo $title;}?> | Ham Radio Club &mdash; IIT Bombay</title>
     <link rel="stylesheet" type="text/css" href="css/header.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
@@ -22,7 +21,6 @@
                 </div>
                 <nav>
                     <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                    <div id="nav01">
                     <ul class="nav-list">
                         <li>
                             <a href="about.php">About us</a>
@@ -41,36 +39,33 @@
                                 <li>
                                     <a href="gsw.php" style="margin:0px;">GSW (Flagship event)</a>
                                 </li>
-                                
                                 <li>
-                                    <a href="sessions.php" style="margin:0px;">Hands-on Sessions</a>
-                                       </li>
-</ul>
-                                        <!-- <ul class="nav-dropdown">
-                                            <li>
-                                                <a href="#!">Antenna Making and Satellite Tracking</a>
-                                            </li>
-                                            <li>
-                                                <a href="#!">FM Transmitter</a>
-                                            </li>
-                                            <li>
-                                                <a href="#!">How Things Work</a>
-                                            </li>
-</ul> -->
-                             
-                                <!-- </li>
+                                    <a href="#" style="margin:0px;">Hands-on Sessions
+                                    <ul class="nav-dropdown">
+                                        <li>
+                                            <a href="#!">Antenna Making and Satellite Tracking</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">FM Transmitter</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!">How Things Work</a>
+                                        </li>
+                                    </ul>
+</a>
+                                </li>
                                 <li>
                                     <a href="#!" style="margin:0px;">Technical Activities</a>
                                 </li>
-                            </ul>
+                                </ul>
                         </li>
                         <li>
                             <a href="#!">Ham Exam</a>
-                            <ul class="nav-dropdown">
+                            <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Process</a>
                     </li>
-                  </ul>
+                  </ul> -->
                         </li>
                         <span class="nav_right">
                             <li>
@@ -82,7 +77,7 @@
                                         Team
                                     </span>
                                 </a>
-                           <ul class="nav-dropdown">
+                                <!-- <ul class="nav-dropdown">
                   <li>
                     <a href="#!">HRC Members</a>
                   </li>
@@ -90,7 +85,7 @@
                     <a href="#!">Past Managers</a>
                   </li>
                 </ul> -->
-                            <!-- </li> -->
+                            </li>
                             <li>
                                 <a href="#!">
                                     <span class="big">
@@ -126,7 +121,6 @@
                             </li>
                             <span>
                     </ul>
-                    </div>
                 </nav>
             </div>
         </section>

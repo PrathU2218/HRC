@@ -1,31 +1,178 @@
-<link rel="stylesheet" type="text/css" href="css/team.css" />
-<div class="teams">
-  <div class="card">
-  <div class="card-top">
-    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEmbxJKmxZWcw/profile-displayphoto-shrink_400_400/0/1588604480258?e=1647475200&v=beta&t=9WDp2Pqz_GlihrVIu_B7j3NuJbOPvNcWEdOhDi0d2Zk" alt="">
-    <span class="name">Arpit Verma</span>
-    <span class="link">hanibal_G</span>
-  </div>
-  <button class="btn">follow</button>
-</div>
-  <div class="card">
-  <div class="card-top">
-    <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE_NQ6XRT3D0A/profile-displayphoto-shrink_400_400/0/1638601606149?e=1647475200&v=beta&t=YSxhRvsDJ9g7StXNwCQS9NW2bxzd8mBeHjATubyhuzg" alt="">
-    <span class="name">Anuj Agarwal</span>
-    <span class="link">hanibal_G</span>
-  </div>
-  <button class="btn">follow</button>
-</div>
-  <div class="card">
-  <div class="card-top">
-    <img src="data:image/jpeg;base64,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" alt="">
-    <span class="name">Pawan Mavlia</span>
-    <span class="link">hanibal_G</span>
-  </div>
-  <button class="btn">follow</button>
-</div>
-</div>
+<?php $title = 'hamexam';
+include 'header.php'; ?>
+
+<link rel="stylesheet" href="./css/team.css"/>
+<link rel="stylesheet" href="./css/team1.css"/>
+
+
+<!-- <h1 style="color: brown; background: yellow; text-align: center;">PRESENT TEAM  MEMBERS</h1> -->
+<div class="wrapper">
+        <!--membre 1-->
+       <div class="membre">
+            <img src="https://i.imgur.com/jMtQiws.jpg" alt="" >
+           
+            <div class="info">
+               <h5 class="name">Aya Smith</h5>
+               <p class="job">Web Designer</p>
+            </div>
+
+           <div class="overly top">
+               <div class="middle">
+                    <h5 class="name">Aya Smith</h5>
+            <p class="job"> Web Designer</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Repellat nobis perspiciatis molestiae tempora quasi. Nulla.
+            </p>
+               
+            <div class="social-icones">
+                <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="icon">
+                    <i class="fab fa-google-plus"></i>
+                </a>
+            </div>
+        </div>
+        </div>
+       </div>
+
+    <!--membre 2-->
+    <div class="membre">
+        <div class="img">
+            <img src="https://i.imgur.com/jMtQiws.jpg" alt="" class="img">
+        </div>
+        <div class="info">
+            <h5 class="name">Aya Smith</h5>
+            <p class="job">Pro Web Designer</p>
+        </div>
+        <div class="overly left">
+            <div class="middle">
+                <h5 class="name">Aya Smith</h5>
+                <p class="job">Web Designer</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis perspiciatis molestiae tempora quasi.
+                    Nulla.
+                </p>
+    
+                <div class="social-icones">
+                    <a href="#" class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-google-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
+    <!--membre 3-->
+    <div class="membre">
+        <img src="https://i.imgur.com/jMtQiws.jpg" alt="">
+        
+        <div class="info to-top">
+            <h5 class="name">Aya Smith</h5>
+            <p class="job"> Web Designer</p>
+        </div>
+        <div class="overly bottom">
+            <div class="middle">
+                <h5 class="name">Aya Smith</h5>
+                <p class="job"> Web Designer</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis perspiciatis molestiae tempora quasi.
+                    Nulla.
+                </p>
+    
+                <div class="social-icones">
+                    <a href="#" class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-google-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    </div>
+
+
+<h1 style="color: white; text-align: center;">PAST TEAM  MEMBERS</h1>
+
+<div id="past">
+<ul class="list-members">
+  <li class="member">
+    <div class="member-image">
+      <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png">
+    </div>
+    <div class="member-info">
+      <h3>Hazel Andrea</h3>
+      <p>Founder & CEO</p>
+      <div class="social-link">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </li>
+  <li class="member">
+    <div class="member-image">
+      <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png">
+    </div>
+    <div class="member-info">
+      <h3>Lucas Edward</h3>
+      <p>Product Manager</p>
+      <div class="social-link">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </li>
+  <li class="member">
+    <div class="member-image">
+      <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png">
+    </div>
+    <div class="member-info">
+      <h3>Ella Piper</h3>
+      <p>Marketing Head</p>
+      <div class="social-link">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </li>
+  <li class="member">
+    <div class="member-image">
+      <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png">
+    </div>
+    <div class="member-info">
+      <h3>Jaxon Mathew</h3>
+      <p>Affiliate Manager</p>
+      <div class="social-link">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </li>
+</ul>
+</div>
