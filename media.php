@@ -17,23 +17,23 @@ include 'header.php'; ?>
 <div class="row">
   <div class="col-sm-6" id="top">
     <div class="card">
-      <div class="card-body">
+      <div class="card-body d-flex flex-column">
           <img src="images/media1.png" class="img1">
         <h5 class="card-title">Citizen Matters Mumbai</h5>
         <p class="card-text">Ham Radio Club, IIT Bombay, got featured in the online magazine, Citizen Matters Mumbai. The article written by one of our members Supreet Gupta, threw light on our efforts to promote ham radio in our institute and increase its awareness to the general public. 
 </p>
-        <a href="https://mumbai.citizenmatters.in/do-you-have-a-broadcaster-in-you-21092?fbclid=IwAR0ZD0AiqP62D7hPn3zRcZl7Nrwah6Txu3uHns4iWdM_vl8IUS7cfzznuwQ" target="_blank" class="btn btn-primary btn1">Read More</a>
+        <a href="https://mumbai.citizenmatters.in/do-you-have-a-broadcaster-in-you-21092?fbclid=IwAR0ZD0AiqP62D7hPn3zRcZl7Nrwah6Txu3uHns4iWdM_vl8IUS7cfzznuwQ" target="_blank" class="btn btn-primary btn1 mt-auto">Read More</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6" id="top">
     <div class="card" id="card2">
-      <div class="card-body">
+      <div class="card-body d-flex flex-column">
           <img src="images/media2.png" class="img2">
         <h5 class="card-title">Anecdotes of an Aerospace Nerd Blog</h5>
         <p class="card-text">“Anecdotes of an Aerospace Nerd”, a blog page by Anmol Sikka, former Project Manager, Student Satellite Program, IIT Bombay, shared about Ham Radio Club and the Ground Station Workshop held in January 2021.
 </p>
-        <a href="https://blog.aerospacenerd.com/p/ham-radio-club-iit-bombay-talks" target="_blank" class="btn btn-primary btn2">Read More</a>
+        <a href="https://blog.aerospacenerd.com/p/ham-radio-club-iit-bombay-talks" target="_blank" class="btn btn-primary btn2 mt-auto">Read More</a>
       </div>
     </div>
   </div>
