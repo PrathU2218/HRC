@@ -1,0 +1,76 @@
+#i1{background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
+    margin-bottom: 0px;
+    min-height: 100vh;
+}
+
+#top{
+	margin-top: 350px;
+}
+.card{
+    background-color: transparent !important;
+	border: white solid 2px !important;
+	border-radius: 25px !important;
+}
+.img1{
+	height:430px;
+	width:98%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+.img2{
+	height:430px;
+	width:98%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+.card-title{
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	font-size: 30px;
+}
+.card-text{
+	text-align: justify;
+	color: white;
+}
+.btn2{
+	margin-top: 23.5px;
+	border-radius: 20px !important;
+}
+.btn1{
+	border-radius: 20px !important;
+}
+.btn1:hover{
+	background-color: transparent !important;
+	border-color: white !important;
+}
+.btn2:hover{
+	background-color: transparent !important;
+	border-color: white !important;
+}
+.btn1:focus, .btn1:active{
+	outline: none !important;
+	box-shadow: none !important;
+}
+.btn2:focus, .btn2:active{
+	outline: none !important;
+	box-shadow: none !important;
+}
+@media screen and (max-width: 800px){
+	.img1{
+		 height: 250px !important;
+	}
+	.img2{
+		height: 250px !important;
+   }
+	#top{
+		margin-top: 300px !important;
+	}
+	#card2{
+		margin-top: -200px;
+	}
+}
