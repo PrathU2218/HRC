@@ -42,7 +42,7 @@
     margin-top:80px;
     margin-right: 0px;
     background-size: auto;
-    min-height: 80vh;
+    min-height: 70vh;
     background-image: url("../images/mask.png");
     background-repeat:no-repeat;
     background-position: right;
@@ -60,7 +60,7 @@
 
 
 #i02left {
-    color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 80vh;
+    color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 70vh;
     background-image: url("../images/mask.png");
     background-repeat:no-repeat;
     background-position: right;
@@ -81,7 +81,7 @@
 #i04 {
     margin-left: 20px;  font-family: Lato;
     font-style: normal;
-    width: 50%;
+    width: 40%;
     font-weight: normal; font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
@@ -127,10 +127,21 @@
     }
     #i03left, #i04{
         margin-left: 0px;
-        text-align: left;
+        text-align: justify;
     }
     #i03, #i05{
         padding-left: 0px;
     }
-
+    #i04below{
+       top:0%; 
+    }
+    #i06{
+        width:100%;
+    }
+    #i05{
+        text-align: justify;
+    }
+    #i02below{
+        display: flex;
+    }
 }
