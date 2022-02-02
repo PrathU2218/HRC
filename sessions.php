@@ -13,6 +13,7 @@
 
 <body>
     <div class="whole">
+    <div style="min-height:350px;"></div>
         <!-- <br>
         <br> -->
     <!-- <div class="session_buttons">
@@ -32,23 +33,24 @@
 
             <div class="session_heading">Antenna Making and Satellite Tracking </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">In order to provide hands-on experience of building a ground station,
                         we encourage students to form groups and design their own antenna with the help of a series of
                         orientation, theory and work sessions. </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="MagicScroll">
+                <div class="col-md-6">
+                <img src="images/mask.png" style="position:relative; width:100%;">
+                    <!-- <div class="MagicScroll">
                         <img src="images/antenna_1.jpg">
                         <img src="images/antenna_2.jpg" >
                         <img src="images/antenna_3.jpg" >
                         <img src="images/antenna_4.jpg" >
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6"><img src="images/mask.png" style="position:relative; width:100%;"></div>
-                <div class="col-md-6 ">
+                <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">What follows is a satellite tracking session where the enthusiasts test
                         their antennas. This might arguably be one of the most exciting tech events of the institute,
                         receiving signals from satellites in space and deciphering them using software to convert them
@@ -57,7 +59,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">Due to the coronavirus pandemic and lack of access to our ground
                         station and equipment, we decided to widen our scope and explore virtual tracking with the help
                         of webSDRs. It enables anyone to track satellites by accessing other ground stations using just
@@ -88,7 +90,7 @@
             <div class="session_heading">FM Transmitter </div>
 
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">Demonstration on the hands-on design of an FM transmitter. Students then build their own FM transmitter and transmit signals using that. </div>
                 </div>
                 <div class="col-md-6"><img src="images/mask.png" style="position:relative; width:100%;"></div>
@@ -102,14 +104,14 @@
             <div class="session_heading"> How Things Work</div>
 
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">These are talks given by the senior members of the satellite team on how wireless devices and communication works. These talks will give you a good insight into topics like satellite communication, SSTV, etc.</div>
                 </div>
                 <div class="col-md-6"><iframe width="80%" height="315" src="https://www.youtube.com/embed/zcpHzKjDD6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </div>
             <div class="row">
             <div class="col-md-6"><img src="images/mask.png" style="position:relative; width:100%;"></div>
-                <div class="col-md-6 ">
+                <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">The latest session was a live demonstration by Vaishnavi Agarwal on SSTV (slow-scan television) held on 10th January 2021. SSTV is a widely-used communication protocol in the amateur radio community and also by ARISS (Amateur radio on the International Space Station). Attendees were taught about the underlying theory of the SSTV protocol and how the encoding/decoding of an image/audio respectively is done in an SSTV interface. </div>
                 </div>
             </div>
