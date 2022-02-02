@@ -20,7 +20,7 @@
                 <div id="i05">
                     Ham Radio Club has the vision to foster and grow the amateur radio community at IIT Bombay and beyond. Ham radio is a hobby and technology that allows us to interact with people across the globe using wireless communication. As a subsidiary of the IIT Bombay Student Satellite Program, we aim to set up a full-fledged autonomous ground station with advanced and updated technology while attaining numerous ham radio licenses.
                 </div>
-            </div>
+            </div>  
         </div>
         <div id="i02">
             <div>
@@ -54,6 +54,8 @@
 
         <div class = "container" id="i02below">
             <div class="row">
+                <!-- <div class="flex-container"> -->
+                <!-- <div> -->
                 <div class="column">
                     <div id="i04below">
                         Yagi-Uda Antenna
@@ -62,22 +64,30 @@
 
                     </div>
                 </div>
+                <!-- </div> -->
+                <!-- <div> -->
                 <div class="column">
                     <div>
                         <img src="./images/yagi.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
+                <!-- </div> -->
+                <!-- </diV> -->
             </div>
         </div>
 
 
         <div class="container" id="i02below">
             <div class="row">
+            <!-- <div class="flex-container"> -->
+                <!-- <div> -->
                 <div class="column">
                     <div>
                         <img src="./images/hand.jpeg" id="i06"></img>
                     </div>
                 </div>
+                <!-- </div> -->
+                <!-- <div> -->
                 <div class="column">
                     <div id="i04below">
                         Hand-held Radio
@@ -86,11 +96,15 @@
 
                     </div>
                 </div>
+                <!-- </div> -->
+                </div>
             </div>
         </div>
 
         <div class="container" id="i02below">
             <div class="row">
+            <!-- <div class="flex-container"> -->
+                <!-- <div> -->
                 <div class="column">
                     <div id="i04below">
                         Base Station Transceiver
@@ -99,21 +113,29 @@
 
                     </div>
                 </div>
+                <!-- </div> -->
+                <!-- <div> -->
                 <div class="column">
                     <div>
                         <img src="./images/base.jpeg" id="i06" class="image-left"></img>
                     </div>
+                </div>
+                <!-- </div> -->
                 </div>
             </div>
         </div>
 
         <div class="container" id="i02below">
             <div class="row">
+            <!-- <div class="flex-container"> -->
+                <!-- <div> -->
                 <div class="column">
                     <div>
                         <img src="./images/double.jpg" id="i06"></img>
                     </div>
                 </div>
+                <!-- </div> -->
+                <!-- <div> -->
                 <div class="column">
                     <div id="i04below">
                     Double-Cross Antenna
@@ -121,11 +143,15 @@
                         Double-cross antenna is a rather complex-looking yet very simple antenna design. It consists of two pairs of dipoles, each tilted 30° from the vertical. It is an omnidirectional antenna with circular polarization. It is typically used to track NOAA satellites, in the frequency ranges of 137-138MHz (NOAA18 and NOAA19). 
                     </div>
                 </div>
+                <!-- </div> -->
+                </div>
             </div>
         </div>
 
         <div class="container" id="i02below">
             <div class="row">
+            <!-- <div class="flex-container"> -->
+                <!-- <div> -->
                 <div class="column">
                     <div id="i04below">
                     Amplifiers
@@ -136,21 +162,29 @@
 
                     </div>
                 </div>
+                <!-- </div> -->
+                <!-- <div> -->
                 <div class="column">
                     <div>
                         <img src="./images/amplifier.jpg" id="i06" class="image-left"></img>
                     </div>
+                </div>
+                <!-- </div> -->
                 </div>
             </div>
         </div>
 
         <div class="container" id="i02below">
             <div class="row">
+            <div class="flex-container">
+                <div>
                 <div class="column">
                     <div>
                         <img src="./images/cable.jpg" id="i06"></img>
                     </div>
                 </div>
+                </div>
+                <div>
                 <div class="column">
                     <div id="i04below">
                     Cables and Connectors
@@ -161,11 +195,15 @@
 
                     </div>
                 </div>
+                </div>
+            </div>
             </div>
         </div>
 
         <div class="container" id="i02below">
             <div class="row">
+            <div class="flex-container">
+                <div>
                 <div class="column">
                     <div id="i04below">
                     Antenna Rotator
@@ -173,12 +211,16 @@
                         An antenna rotator is a device used to change the orientation of a directional antenna. It has two parts- a rotor which is used to move the antenna to point in the direction of the satellite, and a controller for the rotor to make the process of tracking autonomous. The controller is normally placed near the antenna while the rotator is mounted on the antenna mast.
                     </div>
                 </div>
+                </div>
+                <div>
                 <div class="column">
                     <div>
                         <img src="./images/rotator.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
+                </div>
+                </div>
         </div>
 
     </div>
