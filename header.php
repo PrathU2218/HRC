@@ -108,7 +108,7 @@
                   </ul> -->
                             </li>
                             <li>
-                                <a href="#!">
+                                <a href="blogs.php">
                                     <span class="big">
                                         <img src="images/blog.png" class="nav_icon">
                                     </span>
