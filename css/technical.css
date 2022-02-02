@@ -135,8 +135,8 @@
 
  #h000{
      color: white;
-     margin-left: 5px;
-     font-size: 18px;
+     margin-left: 15px;
+     font-size: 24px;
      font-family: Lato;
      margin-top: 10px;
      margin-bottom: 30px;
@@ -173,4 +173,21 @@
  
  .column {
    flex: 50%;
+ }
+
+ .section2-img1 {
+   position: absolute;
+   display: inline-block;
+   width: 40%;
+   height: auto;
+   margin-top: 30%;
+   right: 40%;
+ }
+ .section2-img2 {
+   position: absolute;
+   display: inline-block;
+   width: 40%;
+   height: auto;
+   margin-top: 5%;
+   right: 5%;
  }

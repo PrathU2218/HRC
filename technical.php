@@ -135,7 +135,7 @@ NOAA is a US-based agency that deploys a series of weather satellites in space a
                 </div>
             </div>
         </div>
-        <b id="h000">Specifications of the system</b><br>
+        <b id="h000">Specifications of the system</b><br><br>
 <table id="t01">
     <tr id="t02">
         <td id="t03">SSTV Module</td>
@@ -179,7 +179,8 @@ Anyone can be involved in this process. You just need a laptop and an internet c
                 </div>
                 <div class="column">
                     <div>
-                        <img src="./images/rotator.jpg" id="i06" class="image-left"></img>
+                        <img src="./images/radio_1.jpg" id="i06" class="image-left" style="margin-bottom: 20px;"></img>
+                        <img src="./images/radio_2.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
