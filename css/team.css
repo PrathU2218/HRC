@@ -23,22 +23,24 @@ li {
 .list-members {
   /* background: #ffe501; */
 background: #2A5470;
-  width: 80%;
+  width: fit-content;
   margin: 4% auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .member {
-  flex-basis: 50%;
+  width: auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .member-image {
-  width: 50%;
-  height: 100%;
+  width: 300px;
+  height: 300px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -55,8 +57,13 @@ background: #2A5470;
 }
 
 .member-info {
-  width: 50%;
+  width: 100%;
+  min-height: 300px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .member-info p {
@@ -84,10 +91,261 @@ background: #2A5470;
 /* Membuat segitiga */
 .member-image::after {
   content: '';
+  /* border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 15px solid #4C4177; */
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #2A5470;
+  position: absolute;
+  /* top: 50%;
+  right: 0;
+  transform: translateY(-50%); */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* Merubah posisi member-image dengan member-info */
+@media screen and (min-width: 771px) {
+  .member:nth-child(4n+2) .member-info,
+  .member:nth-child(4n+4) .member-info {
+    order: 1;
+  }
+  .member:nth-child(4n+2) .member-image,
+  .member:nth-child(4n+4) .member-image {
+    order: 2;
+  }
+
+  /* Merubah posisi sigitiga pada baris genap */
+  .member:nth-child(4n+2) .member-image::after,
+  .member:nth-child(4n+4) .member-image::after {
+    /* left: 0;
+    right: auto;
+    transform: translateY(-50%) rotateZ(180deg); */
+    left: auto;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%) rotateZ(180deg);
+  }
+}
+
+
+/* Mobile Styles */
+@media screen and (max-width: 770px) {
+  /* .list-members {
+    width: 95%;
+  } */
+  .list-members {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .member {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .member-image {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .member-image img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+  
+  .member-image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .member-info {
+    width: 50%;
+    min-height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-link .fab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .member-image::after {
+    content: '';
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid #2A5470;
+    /* border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid #2A5470; */
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    transform: translateY(-50%);
+    /* bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); */
+  }
+
+  .member:nth-child(even) .member-info {
+    order: 1;
+  }
+  .member:nth-child(even) .member-image {
+    order: 2;
+  }
+
+  /* Merubah posisi sigitiga pada baris genap */
+  .member:nth-child(even) .member-image::after {
+    left: 0;
+    right: auto;
+    transform: translateY(-50%) rotateZ(180deg);
+    /* left: auto;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%) rotateZ(180deg); */
+  }
+
+
+  /* .member:nth-child(even) .member-info {
+    order: 1;
+  }
+  .member:nth-child(even) .member-image {
+    order: 2;
+  }
+  
+  .member:nth-child(even) .member-image::after {
+    left: auto;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%) rotateZ(180deg);
+  } */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style member component */
+.current-list-members {
+  /* background: #ffe501; */
+background: #2A5470;
+  width: 80%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.current-member {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-member-image {
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.current-member-image img {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.current-member-image:hover img {
+  transform: scale(1.1);
+}
+
+.current-member-info {
+  width: 50%;
+  text-align: center;
+}
+
+.current-member-info p {
+  margin: 20px 0;
+}
+
+
+/* style social link */
+.social-link .fab {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #000;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.social-link .fab:hover {
+  background: #000;
+  color: #ffe501;
+  transform: translateY(-7px);
+}
+
+/* Membuat segitiga */
+.current-member-image::after {
+  content: '';
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
   /* border-right: 15px solid #ffe501; */
-  border-right: 15px solid #4C4177;
+  border-right: 15px solid #2A5470;
   position: absolute;
   top: 50%;
   right: 0;
@@ -97,18 +355,18 @@ background: #2A5470;
 
 /* Merubah posisi member-image dengan member-info */
 @media screen and (min-width: 771px) {
-  .member:nth-child(4n+3) .member-info,
-  .member:nth-child(4n+4) .member-info {
+  .current-member:nth-child(4n+3) .current-member-info,
+  .current-member:nth-child(4n+4) .current-member-info {
     order: 1;
   }
-  .member:nth-child(4n+3) .member-image,
-  .member:nth-child(4n+4) .member-image {
+  .current-member:nth-child(4n+3) .current-member-image,
+  .current-member:nth-child(4n+4) .current-member-image {
     order: 2;
   }
 
   /* Merubah posisi sigitiga pada baris genap */
-  .member:nth-child(4n+3) .member-image::after,
-  .member:nth-child(4n+4) .member-image::after {
+  .current-member:nth-child(4n+3) .current-member-image::after,
+  .current-member:nth-child(4n+4) .current-member-image::after {
     left: 0;
     right: auto;
     transform: translateY(-50%) rotateZ(180deg);
@@ -118,10 +376,10 @@ background: #2A5470;
 
 /* Mobile Styles */
 @media screen and (max-width: 770px) {
-  .list-members {
+  .current-list-members {
     width: 95%;
   }
-  .member {
+  .current-member {
     flex-basis: 100%;
     font-size: 14px;
   }
@@ -131,15 +389,15 @@ background: #2A5470;
     line-height: 30px;
   }
 
-  .member:nth-child(even) .member-info {
+  .current-member:nth-child(even) .member-info {
     order: 1;
   }
-  .member:nth-child(even) .member-image {
+  .current-member:nth-child(even) .member-image {
     order: 2;
   }
   
   /* Merubah posisi sigitiga elemen genap */
-  .member:nth-child(even) .member-image::after {
+  .current-member:nth-child(even) .member-image::after {
     left: 0;
     right: auto;
     transform: translateY(-50%) rotateZ(180deg);

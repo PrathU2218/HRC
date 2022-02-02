@@ -1,8 +1,7 @@
-<?php $title = 'About';
-include 'header.php'; ?>
+<?php $title = 'TECHNICAL ACTIVITIES'; include 'header.php'; ?>
 
 <head>
-    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/technical.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -12,60 +11,34 @@ include 'header.php'; ?>
 
 <body>
     <div class="container-fluid" id="i01">
-        <div style="padding:20px 0px;"></div>
-        <div id="i02left">
+    <div style="min-height:350px;"></div>
+       
+
+        <!-- <div id="i02left" style="margin-top:80px">
             <div>
-                <p id="i03">
-                    About Us
-                </p>
+                
                 <div id="i05">
-                    Ham Radio Club has the vision to foster and grow the amateur radio community at IIT Bombay and beyond. Ham radio is a hobby and technology that allows us to interact with people across the globe using wireless communication. As a subsidiary of the IIT Bombay Student Satellite Program, we aim to set up a full-fledged autonomous ground station with advanced and updated technology while attaining numerous ham radio licenses.
+                We use tracking equipment and software to receive RF signals from various satellites. As part of our ground station activities, we have tracked the FOX-1D satellite using a foldable Yagi-Uda antenna and also received SSTV images from the International Space Station using a hand-held transceiver (Baofeng UV-5R) in January 2020.
+
+
                 </div>
             </div>
-        </div>
-        <div id="i02">
-            <div>
-                <p id="i03left">
-                    Introduction
+        </div> -->
+
+        <p id="i03left">
+                    SATELLITE TRACKING
                 </p>
-                <div id="i04">
-                    Ham is a hobby that can be pursued by anyone who owns a transceiver like handheld radio or Baofeng (more commonly known as a walkie-talkie). A ham radio operator can talk to other ham radio operators across the world and even receive signals which can be deciphered later using a simple application to convert them into images or voice or morse code. These signals could come from either space or from far-off parts of the world. Ham Radio has captivated the interest of countless thousands and provides a stimulating technical hobby for people around the globe. Many ham operators enjoy talking to far and distant friends. We wish to familiarize people with the basics of what ham is and promote the amateur radio culture through various events, talks, and hands-on sessions.
-                    <br />
-                    Read more about the very basics of Ham Radio in our blog: Ham Radio 101
-                    <a href="https://hrciitb.wordpress.com/2020/08/24/ham-radio-101/">https://hrciitb.wordpress.com/2020/08/24/ham-radio-101/</a>
-                </div>
-            </div>
-        </div>
-
-        <div id="i02left" style="margin-top:30px">
-            <div>
-                <p id="i03">
-                    OUR RADIO SHACK
-                </p>
-                <div id="i05">
-                    Peek into our radio shack and find out the basic details of all the hardware and equipment we use in
-                    order to communicate and track satellites.
-                    This was also covered in our Instagram series “Know our Shack”:
-                    <a href="https://www.instagram.com/p/CFUXaHHHSG5/">https://www.instagram.com/p/CFUXaHHHSG5/</a>
-
-                </div>
-            </div>
-        </div>
-
-
         <div class = "container" id="i02below">
             <div class="row">
                 <div class="column">
                     <div id="i04below">
-                        Yagi-Uda Antenna
-                        <br>
-                        The Yagi-Uda antenna is one of the most used antenna designs. It typically operates in the HF and UHF bands (about 3 MHz to 3 GHz). It is a highly directive antenna and is generally used for TV reception, tracking the International Space Station, and weather satellites such as NOAA 15, 18, and 19
+                        We use tracking equipment and software to receive RF signals from various satellites. As part of our ground station activities, we have tracked the FOX-1D satellite using a foldable Yagi-Uda antenna and also received SSTV images from the International Space Station using a hand-held transceiver (Baofeng UV-5R) in January 2020.
 
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <img src="./images/antenna.png" id="i06"></img>
+                        <img src="./images/sstv_1.jpeg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
@@ -75,15 +48,18 @@ include 'header.php'; ?>
         <div class="container" id="i02below">
             <div class="row">
                 <div class="column">
-                    <div>
-                        <img src="./images/hand.jpeg" id="i06"></img>
+                    <div id="i000">
+                        <img src="./images/sstv_2.jpg" id="i06"></img>
                     </div>
                 </div>
                 <div class="column">
                     <div id="i04below">
-                        Hand-held Radio
-                        <br>
-                        A hand-held radio, also known as a walkie-talkie, is a portable radio that can both transmit and receive radio waves (a transceiver). One can connect different types of antennas with the hand-held radio, based on the need. They are also used by groups of geographically separated people who need to keep in continuous voice communication.
+                        Due to the coronavirus pandemic and lack of access to our ground station and equipment, we decided to widen our scope and explore virtual tracking with the help of webSDRs. It is done by accessing ground stations across the world to receive signals.
+
+The members of the Student Satellite Program are regularly trained and made to compete online to track satellites and receive signals.
+
+NOAA is a US-based agency that deploys a series of weather satellites in space and sends images of the Earth. We successfully tracked NOAA 15,18 and 19 to receive images of the Earth above Europe and America.
+
 
                     </div>
                 </div>
@@ -94,15 +70,12 @@ include 'header.php'; ?>
             <div class="row">
                 <div class="column">
                     <div id="i04below">
-                        Base Station Transceiver
-                        <br>
-                        Base station transceiver is equipment that requires heavy-duty, i.e., a continuous high power supply. It needs to be fixed at a particular location or mobile van. Kenwood TS 2000 is known for its “all-in-one” functionality as it can transmit on almost all amateur radio bands between 160 meters and 70 centimeters. Its RF Power Output ranges from 25W-200W. 
-
-                    </div>
+                    Amateur Radio on the International Space Station (ARISS) is a program to connect students and amateur radio enthusiasts from around the world to the astronauts at ISS. In this program, astronauts transmit some signals for amateur radio enthusiasts to receive them. These signals are usually encoded images transmitted using the SSTV communication protocol. Inter-MAI-75 (Formation and Popularization of Space Exploration) is an experiment by the Moscow Aviation Institute under the ARISS program. Here are some of the images successfully received and decoded by our team members 
+                   </div>
                 </div>
                 <div class="column">
-                    <div>
-                        <img src="./images/base.jpeg" id="i06"></img>
+                    <div id="i000">
+                        <img src="./images/sstvsdr_1.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
@@ -111,15 +84,13 @@ include 'header.php'; ?>
         <div class="container" id="i02below">
             <div class="row">
                 <div class="column">
-                    <div>
-                        <img src="./images/double.jpg" id="i06"></img>
+                    <div id="i000">
+                        <img src="./images/diploma_1.jpg" id="i06"></img>
                     </div>
                 </div>
                 <div class="column">
-                    <div id="i04below">
-                    Double-Cross Antenna
-                        <br>
-                        Double-cross antenna is a rather complex-looking yet very simple antenna design. It consists of two pairs of dipoles, each tilted 30° from the vertical. It is an omnidirectional antenna with circular polarization. It is typically used to track NOAA satellites, in the frequency ranges of 137-138MHz (NOAA18 and NOAA19). 
+                    <div id="i04below0">
+                    The amateur radio enthusiasts who successfully receive and decode these images are awarded by renowned ham radio clubs as a sign of acknowledgment of their satellite tracking skills. Here are some of the diplomas received by our members.  
                     </div>
                 </div>
             </div>
@@ -128,23 +99,21 @@ include 'header.php'; ?>
         <div class="container" id="i02below">
             <div class="row">
                 <div class="column">
-                    <div id="i04below">
-                    Amplifiers
-
-                        <br>
-                        An amplifier is an electronic device that can increase the power of a signal (a time-varying voltage or current). It is a two-port electronic circuit that uses electric power from a power supply to increase the amplitude. A low noise amplifier is used to amplify the received signal (without amplifying the noise as much) by ham radio operators.
-
-
+                    <div id="i04below2">
+                    On the 20th anniversary of the ARISS program, ISS transmitted SSTV images from 24th December to 31st December 2020. We participated in this activity and successfully received the SSTV images. Ham Radio Club, IIT Bombay was honoured to have been awarded the ‘ARISS SSTV Award’ for the same. (20th Anniversary image and SSTV Award)
                     </div>
                 </div>
                 <div class="column">
-                    <div>
-                        <img src="./images/amplifier.jpg" id="i06"></img>
+                    <div id="i000">
+                        <img src="./images/20thanniversary_1.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>
         </div>
 
+        <p id="i03left">
+            SSTV MODULE
+        </p>
         <div class="container" id="i02below">
             <div class="row">
                 <div class="column">
@@ -153,30 +122,64 @@ include 'header.php'; ?>
                     </div>
                 </div>
                 <div class="column">
-                    <div id="i04below">
-                    Cables and Connectors
-
-                        <br>
-                        Cables and Connectors, as the name suggests, are required to connect two or more devices or equipment in our ground station. For RF transmission, the coaxial cable makes sure not to let the electromagnetic waves distort and helps signals travel larger distances. Each cable has its specific connector, i.e., coaxial connectors are used with coaxial cable. The two types of connectors- male connectors and female connectors depend on the location of threading and polarity. 
- 
+                    <div>
+                    Slow Scan Television is a picture transmission method used mainly by ham radio operators. Static pictures are transmitted and received via analog frequency modulation in HF, UHF and VHF bands. Every pixel in an image is represented as a sinusoid of different frequencies and color is achieved by encoding the brightness of each color component separately. Demodulation can generate an audio representation of the image.
+                   <b> Aim of the mission</b>
+                    <br>
+<ul>
+<li>To design and build a satellite-borne transmitter for broadcasting images using the SSTV communication protocol.
+<li>Equip and train a layperson (especially school students) to build a low-cost receiver (5000 INR) to intercept the signal and get images.
+</ul>
 
                     </div>
                 </div>
             </div>
         </div>
+        <b id="h000">Specifications of the system</b><br>
+<table id="t01">
+    <tr id="t02">
+        <td id="t03">SSTV Module</td>
+        <td id="t03">PD90 (90 seconds)</td>
+    </tr>
+    <tr id="t02">
+        <td id="t03">Display resolution</td>
+        <td id="t03">320x256</td>
+    </tr>
+    <tr id="t02">
+        <td id="t03">Operating Frequency Band</td>
+        <td id="t03">VHF (144-146 Mhz)</td>
+    </tr>
+    <tr id="t02">
+        <td id="t03">Power consumption</td>
+        <td id="t03"><5.5W</td>
+    </tr>
+    <tr id="t02">
+        <td id="t03">Cost (approx.) of Module</td>
+        <td id="t03">INR 10,000</td>
+    </tr>
+    <tr id="t02">
+        <td id="t03">Cost (approx.) of Receiver</td>
+        <td id="t03">INR 5,000 </td>
+    </tr>
+</table>
+<br>
+        <p id="i03left">RADIO ASTRONOMY</p>
 
         <div class="container" id="i02below">
             <div class="row">
                 <div class="column">
-                    <div id="i04below">
-                    Antenna Rotator
-                        <br>
-                        An antenna rotator is a device used to change the orientation of a directional antenna. It has two parts- a rotor which is used to move the antenna to point in the direction of the satellite, and a controller for the rotor to make the process of tracking autonomous. The controller is normally placed near the antenna while the rotator is mounted on the antenna mast.
+                    <div id="i04below3">
+                        Meteor detection is a hobby like ham radio. It comes under the umbrella of amateur radio astronomy. Meteor detection plays a vital role in some of the studies related to space exploration. The people involved in the meteor visualization and detection process are called meteor hunters.
+We started to get involved in the process of meteor detection in 2020, continuously detecting meteors over Europe since September. The number of meteor detections depends on the occurrence of meteor showers and sources of meteors in outer space and their approach to earth and many other factors. During a meteor shower event, the number of meteor detections per hour becomes very high.
+The Geminids are a prolific meteor shower caused by the object 3200 Phaethon, which is thought to be a Palladian asteroid with a "rock comet" orbit. It occurred from the 4th of December to the 17th of December, with a peak on the 14th of December. In December 2020, we confirmed the occurrence of Geminids meteor shower by receiving a significantly higher number of meteor detections than usual.
+We only used a laptop with a good internet connection for the detections mentioned above. We used CAMRAS webSDR, which provides signals received by the Dwingeloo Radio Telescope. For post-processing, the signal spectrum lab software was used. We detected around 209 meteors/hour during the meteor shower, whereas in normal conditions, an average of 50-100 meteor detections/hour is expected. 
+Anyone can be involved in this process. You just need a laptop and an internet connection.
+
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <img src="./images/rotator.jpg" id="i06"></img>
+                        <img src="./images/rotator.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
             </div>

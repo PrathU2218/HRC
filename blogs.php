@@ -5,24 +5,25 @@
     send = (num) => {
     switch(num){
       case 1:
-        window.location.href='https://www.google.com'
+        window.location.href='https://hrciitb.wordpress.com/category/ham-radio-101/'
       case 2:
-        window.location.href='https://www.google.com'
+        window.location.href='https://hrciitb.wordpress.com/category/transmission-tales/'
       case 3:
-        window.location.href='https://www.google.com'
+        window.location.href='https://hrciitb.wordpress.com/category/the-communication-chronicles/'
       case 4:
-        window.location.href='https://www.google.com'
+        window.location.href='https://hrciitb.wordpress.com/category/h-a-m/'
       case 5:
-        window.location.href='https://www.google.com'
+        window.location.href='https://hrciitb.wordpress.com/category/lets-talk-ham/'
     }
   }
   </script>
   <a href="https://hrciitb.wordpress.com/blog-2/" style="color: black;">
 <h1>HRC BLOGS</h1>
   </a>
-<div class="cards" style="color: black;">
+<!-- <div class="cards" style="color: black;"> -->
+<div class="cards">
   <a class="card">
-    <div class="card-hero" onClick="send()">
+    <div class="card-hero" onClick="send(1)">
       <img src="./images/ham101.jpg" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
@@ -34,7 +35,7 @@
     </div>
     <div class="card-footer">
       <div class="footer-item">
-        <img src="./images/transmission_tales.jpg" class="img" width="32" height="32" />
+        <img src="./images/" />
       </div>
       <div class="footer-item">
         <strong>John Doe</strong>
@@ -47,10 +48,10 @@
       <img src="./images/transmission_tales.jpg" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
-      <h3>Transmission Tales</h3>
+      <h3 onClick="send(2)">Transmission Tales</h3>
     </div>
     <div class="card-body">
-      <p>Our first series with 11 blogs on the history, uses, and trivia of ham radio.</p><br><br>
+      <p style="margin-bottom: 25px;">Our first series with 11 blogs on the history, uses, and trivia of ham radio.</p>
     </div>
     <div class="card-footer">
       <div class="footer-item">
@@ -67,7 +68,7 @@
       <img src="./images/communication_chronicles.jpg" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
-      <h3>Communication Chronicles</h3>
+      <h3 onClick="send(3)">Communication Chronicles</h3>
     </div>
     <div class="card-body">
       <p>Technical blog series with the nuances and details about networking, communication, and space.</p>
@@ -92,10 +93,10 @@
       <img src="./images/ham.jpg" width="288" height="200" class="img" />
     </div>
     <div class="card-header">
-      <h3>Highly Amateur Maestros (H.A.M.)</h3>
+      <h3 onClick="send(4)">Highly Amateur Maestros (H.A.M.)</h3>
     </div>
     <div class="card-body">
-      <p>Intricate details and fresh aspects of ham radio through a 5 post series.</p><br><br><br>
+      <p style="margin-bottom: 30px;">Intricate details and fresh aspects of ham radio through a 5 post series.</p><br>
     </div>
     <div class="card-footer">
       <div class="footer-item">
@@ -112,7 +113,7 @@
       <img src="https://hrciitb.files.wordpress.com/2021/11/arsi-1.png?w=1024" width="288" height="200" class="img"/>
     </div>
     <div class="card-header">
-      <h3>Let’s Talk Ham: An interview series</h3>
+      <h3 onClick="send(5)">Let’s Talk Ham: An interview series</h3>
     </div>
     <div class="card-body">
       <p>An interview series on the significant contributions made by amateur radio organizations in India to encourage more and more people to carry out ham activities.</p>

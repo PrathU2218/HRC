@@ -2,30 +2,6 @@
     margin-bottom: 0px;
     min-height: 100vh;
 }
-#text1{
-position: absolute;
-left: 50%;
-top: 286px;
-font-family: Lora;
-font-style: normal;
-font-weight: bold;
-font-size: 278px;
-transform: translate(-50%,-50%);
-color: rgba(0, 0, 0, 0.22);
-}
-#text2{
-position: absolute;
-left: 50%;
-top: 295px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 54px;
-transform: translate(-50%,-50%);
-color: #FFFFFF;
-background: transparent;
-white-space: nowrap;
-}
 #text3{
     font-family: Lato;
     font-size: 18px;
@@ -142,4 +118,53 @@ line-height: 29px;
     width: 100%;
     margin-left: 109px;
     height: 473px;
+}
+@media screen and (max-width: 800px){
+    #text1{
+        font-size: 150px;
+    }
+    #text2{
+        font-size: 30px;
+    }
+    #text3{
+        margin-left: 0px;
+        width: 100%
+    }
+    #text4{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    #text5{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    #text6{
+        margin-left: 0px;
+        display:inline-block;
+        
+    }
+    #text7{
+        margin-left: 0px;
+    }
+    #text8{
+        margin-left: 0px;
+    }
+    #text9{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #text10{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .img1{
+        height: 300px;
+        margin-left: 0px;
+    }
+    #list{
+        margin-left: 0px;
+    }
+
+
 }

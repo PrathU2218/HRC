@@ -60,7 +60,7 @@
                                 </ul>
                         </li>
                         <li>
-                            <a href="#!">Ham Exam</a>
+                            <a href="hamexam.php">Ham Exam</a>
                             <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Process</a>
@@ -69,7 +69,7 @@
                         </li>
                         <span class="nav_right">
                             <li>
-                                <a href="#!">
+                                <a href="team.php">
                                     <span class="big">
                                         <img src="images/team.png" class="nav_icon">
                                     </span>
@@ -127,6 +127,10 @@
         <!-- <div class="page_header">
         <img src="images/hrc_logo.jpeg" alt="Logo" class="page_logo">
         <div class="page_heading"><?php echo($title) ?></div> -->
+        </div>
+        <div id="top-heading">
+            <div id="text1"><?php echo $title;?> </div>
+            <div id="text2"><?php echo $title;?></div>
         </div>
     </header>
 

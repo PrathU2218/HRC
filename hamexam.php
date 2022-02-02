@@ -1,4 +1,4 @@
-<?php $title = 'hamexam';
+<?php $title = 'HAM RADIO EXAM';
 include 'header.php'; ?>
 
 <head>
@@ -12,8 +12,6 @@ include 'header.php'; ?>
     
 </head>
 <div class="container-fluid" id="i1">
-    <div id="text1">HAM</div>
-    <div id="text2">HAM RADIO EXAM</div>
    <div class="row">
        <div class="col-xs" id="text3">
            You cannot enjoy all the benefits of ham radio without having a<br>Ham Radio License. You can only receive signals but you need to<br>have a licence and a callsign for legally transmitting on ham radio.<br> Once you have the ham radio license, you can talk to other hams,<br> build your own ground station, participate in contests and foxhunts<br> and also provide communication assistance during emergencies. 
@@ -51,12 +49,12 @@ include 'header.php'; ?>
    <div class="container-fluid">
        <div class="row">
             <div class="col-sm">
-                <img src="\MorseMania.jpg" class="img1">
+                <img src="images\MorseMania.jpg" class="img1">
             </div>
           <div class="col-sm" id="text8">
               <p id="t1">Following is the procedure for the application of Ham Radio License Exam:</p>
               <ul id="list">
-                  <li>Application can be downloaded from <a href ="https://saralsanchar.gov.in/" class="link1">https://saralsanchar.gov.in/</a>. Exam application along with the fee of Rs. 100 is to be paid online. The examination can be conducted in your own town provided there are a sufficient number of applicants.</li>
+                  <li>Application can be downloaded from <a href ="https://saralsanchar.gov.in/" class="link1">here</a>. Exam application along with the fee of Rs. 100 is to be paid online. The examination can be conducted in your own town provided there are a sufficient number of applicants.</li>
                   <li>On passing the examination, you will be awarded the license on payment of the required license fee: Rs. 1000 for 20 years and Rs. 2000 if you want the license for a lifetime (80 years), on <a href="http://bharatkosh.gov.in/">http://bharatkosh.gov.in/</a></li>
               </ul>
          </div>
