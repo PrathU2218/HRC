@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php if($title===""){$title='Default';}?>
-    <title><?php if(isset($title)){echo $title;}?> | Ham Radio Club &mdash; IIT Bombay</title>
+    <?php if ($title === "") {
+        $title = 'Default';
+    } ?>
+    <title><?php if (isset($title)) {
+                echo $title;
+            } ?> | Ham Radio Club &mdash; IIT Bombay</title>
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
@@ -20,10 +24,12 @@
                     </a>
                 </div>
                 <nav>
-                    <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                    <ul class="nav-list">
+                    <div class="nav-mobile"><a id="nav-toggle"><span></span></a></div>
+                    <ul class="nav-list" id="testing">
                         <li>
-                            <a href="about.php">About us</a>
+                            <span id="about">
+                                <a href="about.php">About Us</a>
+                            </span>
                             <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Intro</a>
@@ -87,7 +93,7 @@
                 </ul> -->
                             </li>
                             <li>
-                                <a href="#!">
+                                <a href="media.php">
                                     <span class="big">
                                         <img src="images/media.png" class="nav_icon">
                                     </span>
@@ -126,11 +132,11 @@
         </section>
         <!-- <div class="page_header">
         <img src="images/hrc_logo.jpeg" alt="Logo" class="page_logo">
-        <div class="page_heading"><?php echo($title) ?></div> -->
+        <div class="page_heading"><?php echo ($title) ?></div> -->
         </div>
         <div id="top-heading">
-            <div id="text1"><?php echo $title;?> </div>
-            <div id="text2"><?php echo $title;?></div>
+            <div id="text1"><?php echo $title; ?> </div>
+            <div id="text2"><?php echo $title; ?></div>
         </div>
     </header>
 
