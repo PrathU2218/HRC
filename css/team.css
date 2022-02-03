@@ -11,13 +11,11 @@ html, body {
 body {
   /* background: linear-gradient(#cddc39, #009688); */
 background: linear-gradient(113.38deg, #2A5470, #4C4177);
-
 }
 
 li {
   list-style: none;
 }
-
 
 /* style member component */
 .list-members {
@@ -77,6 +75,7 @@ background: #2A5470;
   height: 35px;
   line-height: 35px;
   border: 1px solid #000;
+  color: #000;
   margin: 0 7px;
   cursor: pointer;
   transition: transform .5s;
@@ -105,7 +104,9 @@ background: #2A5470;
   left: 50%;
   transform: translateX(-50%);
 }
-
+a{
+  text-decoration: none;
+}
 
 /* Merubah posisi member-image dengan member-info */
 @media screen and (min-width: 771px) {
