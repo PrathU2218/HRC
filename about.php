@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <!-- </div> -->
-                </div>
+                <!-- </div> -->
             </div>
         </div>
 
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <!-- </div> -->
-                </div>
+                <!-- </div> -->
             </div>
         </div>
 
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <!-- </div> -->
-                </div>
+                <!-- </div> -->
             </div>
         </div>
 
@@ -170,21 +170,21 @@
                     </div>
                 </div>
                 <!-- </div> -->
-                </div>
+                <!-- </div> -->
             </div>
         </div>
 
         <div class="container" id="i02below">
             <div class="row">
-            <div class="flex-container">
-                <div>
+            <!-- <div class="flex-container"> -->
+                <!-- <div> -->
                 <div class="column">
                     <div>
                         <img src="./images/cable.jpg" id="i06"></img>
                     </div>
                 </div>
-                </div>
-                <div>
+                <!-- </div> -->
+                <!-- <div> -->
                 <div class="column">
                     <div id="i04below">
                     Cables and Connectors
@@ -195,15 +195,15 @@
 
                     </div>
                 </div>
-                </div>
-            </div>
+                <!-- </div> -->
+            <!-- </div> -->
             </div>
         </div>
 
         <div class="container" id="i02below">
             <div class="row">
-            <div class="flex-container">
-                <div>
+            <!-- <div class="flex-container"> -->
+                <!-- <div> -->
                 <div class="column">
                     <div id="i04below">
                     Antenna Rotator
@@ -211,15 +211,15 @@
                         An antenna rotator is a device used to change the orientation of a directional antenna. It has two parts- a rotor which is used to move the antenna to point in the direction of the satellite, and a controller for the rotor to make the process of tracking autonomous. The controller is normally placed near the antenna while the rotator is mounted on the antenna mast.
                     </div>
                 </div>
-                </div>
-                <div>
+                <!-- </div> -->
+                <!-- <div> -->
                 <div class="column">
                     <div>
                         <img src="./images/rotator.jpg" id="i06" class="image-left"></img>
                     </div>
                 </div>
-            </div>
-                </div>
+            <!-- </div> -->
+                <!-- </div> -->
                 </div>
         </div>
 

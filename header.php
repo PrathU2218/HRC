@@ -46,8 +46,8 @@
                                     <a href="gsw.php" style="margin:0px;">GSW (Flagship event)</a>
                                 </li>
                                 <li>
-                                    <a href="#" style="margin:0px;">Hands-on Sessions
-                                    <ul class="nav-dropdown">
+                                    <a href="sessions.php" style="margin:0px;">Hands-on Sessions
+                                    <!-- <ul class="nav-dropdown">
                                         <li>
                                             <a href="#!">Antenna Making and Satellite Tracking</a>
                                         </li>
@@ -57,7 +57,7 @@
                                         <li>
                                             <a href="#!">How Things Work</a>
                                         </li>
-                                    </ul>
+                                    </ul> -->
 </a>
                                 </li>
                                 <li>
