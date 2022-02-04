@@ -1,6 +1,6 @@
-#i01 {background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
+.i01 {background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
      margin-bottom: 0px;
-     min-height: 100px;
+     min-height: 100vh;
 }
 /* #i02 {
     color: white; padding: 20px; margin-left: 40px; margin-top:0px; margin-right: 40px; background-image: url(https://images.ctfassets.net/hrltx12pl8hq/61DiwECVps74bWazF88Cy9/2cc9411d050b8ca50530cf97b3e51c96/Image_Cover.jpg?fit=fill&w=480&h=270);
@@ -73,7 +73,7 @@
     font-weight: normal; font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
-    text-align: left;
+    text-align: justify;
     position: relative;
     bottom:30px;
     padding-left: 3%;
@@ -86,8 +86,27 @@
     line-height: 29px;
     color: #FFFFFF;
     transform: scalex(-1);
-    text-align: right;
+    text-align: justify;
     padding-right: 2%;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 #i04below {
@@ -99,6 +118,8 @@
     color: #FFFFFF;
     position: relative;
     top:25%;
+    margin:auto; 
+    text-align: justify;
 }
 
 #i06 {
@@ -117,7 +138,9 @@
 .image-left{
     float: right;
 }
-
+#contentcol{
+    margin: auto;
+}
 @media (max-width:400px) {
     #i02, #i02left{
         background-image: none;
@@ -137,6 +160,7 @@
     }
     #i06{
         width:100%;
+        height: auto;
     }
     #i05{
         text-align: justify;
