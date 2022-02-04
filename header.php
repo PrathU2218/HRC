@@ -66,14 +66,14 @@
 
                             <button class="dropbtn">What we do</button>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Link 1</a></li>
-                                <li><a href="#">Link 2</a></li>
+                                <li><a href="#">GSW (Flagship event)</a></li>
+                                <li><a href="#">Hands-on Sessions</a></li>
                                 <li class="dropdown-submenu">
-                                    <button class="dropbtn-2">Link 3</button>
+                                    <button class="dropbtn-2">Technical Activities</button>
                                     <ul class="dropdown-menu-2">
-                                        <li><a href="#">Link 1</a></li>
-                                        <li><a href="#">Link 2</a></li>
-                                        <li><a href="#">Link 3</a></li>
+                                        <li><a href="#">Antenna Making and Satellite Tracking</a></li>
+                                        <li><a href="#">FM Transmitter</a></li>
+                                        <li><a href="#">How Things Work</a></li>
                                     </ul>
                                 </li>
                             </ul>

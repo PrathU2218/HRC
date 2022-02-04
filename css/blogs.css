@@ -28,14 +28,17 @@ h1 {
 
 h3 {
     text-transform: capitalize;
+    color: white;
+    font-size: 22px;
 }
 
 p {
     line-height: 1.5;
+    color: white;
 }
 
 .img {
-    height: 200px;
+    height: 320px;
 }
 
 .cards {
@@ -51,11 +54,11 @@ p {
 
 .cards .card {
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 350px;
     height: fit-content;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    border: 2px solid black;
+    border: 1px solid white;
 }
 
 .cards .card:hover {

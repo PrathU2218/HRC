@@ -3,20 +3,20 @@ include "header.php"; ?>
 <link rel="stylesheet" type="text/css" href="css/blogs.css" />
 <!-- <div> -->
 <script>
-  send = (num) => {
+send = (num) => {
     switch (num) {
-      case 1:
-        window.location.href = 'https://hrciitb.wordpress.com/category/ham-radio-101/'
-      case 2:
-        window.location.href = 'https://hrciitb.wordpress.com/category/transmission-tales/'
-      case 3:
-        window.location.href = 'https://hrciitb.wordpress.com/category/the-communication-chronicles/'
-      case 4:
-        window.location.href = 'https://hrciitb.wordpress.com/category/h-a-m/'
-      case 5:
-        window.location.href = 'https://hrciitb.wordpress.com/category/lets-talk-ham/'
+        case 1:
+            window.location.href = 'https://hrciitb.wordpress.com/category/ham-radio-101/'
+        case 2:
+            window.location.href = 'https://hrciitb.wordpress.com/category/transmission-tales/'
+        case 3:
+            window.location.href = 'https://hrciitb.wordpress.com/category/the-communication-chronicles/'
+        case 4:
+            window.location.href = 'https://hrciitb.wordpress.com/category/h-a-m/'
+        case 5:
+            window.location.href = 'https://hrciitb.wordpress.com/category/lets-talk-ham/'
     }
-  }
+}
 </script>
 <!-- <a href="https://hrciitb.wordpress.com/blog-2/" style="color: black;">
   <h1>HRC BLOGS</h1>
@@ -24,115 +24,124 @@ include "header.php"; ?>
 <!-- <div class="cards" style="color: black;"> -->
 
 <div class="blogs-page">
-<span class="space"></span>
-<div class="cards">
-  <a class="card">
-    <div class="card-hero" onClick="send(1)">
-      <img src="./images/ham101.jpg" width="288" height="200" class="img" />
+    <span class="space"></span>
+    <div class="cards">
+        <a class="card">
+            <div class="card-hero" onClick="send(1)">
+                <img src="./images/ham101.jpg" width="288" height="200" class="img" />
+            </div>
+            <div class="card-header">
+                <h3 onClick="send(1)">HAM Radio 101</h3>
+            </div>
+            <div class="card-body">
+                <p>A starting point and guide for any ham enthusiast out there with a special edition based on satellite
+                    tracking.
+                </p>
+            </div>
+            <!-- <div class="card-footer">
+                <div class="footer-item">
+                    <img src="./images/" />
+                </div>
+                <div class="footer-item">
+                    <strong>John Doe</strong>
+                    <span class="muted">Dec 15 2021</span>
+                </div>
+            </div> -->
+        </a>
+        <a class="card">
+            <div class="card-hero">
+                <img src="./images/transmission_tales.jpg" width="288" height="200" class="img" />
+            </div>
+            <div class="card-header">
+                <h3 onClick="send(2)">Transmission Tales</h3>
+            </div>
+            <div class="card-body">
+                <p style="margin-bottom: 25px;">Our first series with 11 blogs on the history, uses, and trivia of ham
+                    radio.</p>
+            </div>
+            <!-- <div class="card-footer">
+                <div class="footer-item">
+                    <img src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDI3Nzc5MQ&ixlib=rb-1.2.1&q=85"
+                        class="avatar" width="32" height="32" />
+                </div>
+                <div class="footer-item">
+                    <strong>John Doe</strong>
+                    <span class="muted">Dec 10 2021</span>
+                </div>
+            </div> -->
+        </a>
+        <a class="card">
+            <div class="card-hero">
+                <img src="./images/communication_chronicles.jpg" width="288" height="200" class="img" />
+            </div>
+            <div class="card-header">
+                <h3 onClick="send(3)">Communication Chronicles</h3>
+            </div>
+            <div class="card-body">
+                <p>Technical blog series with the nuances and details about networking, communication, and space.</p>
+            </div>
+            <!-- <div class="card-footer">
+                <div class="footer-item">
+                    <img src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDI3Nzc5MQ&ixlib=rb-1.2.1&q=85"
+                        class="avatar" width="32" height="32" />
+                </div>
+                <div class="footer-item">
+                    <strong>John Doe</strong>
+                    <span class="muted">Nov 26 2021</span>
+                </div>
+            </div> -->
+        </a>
     </div>
-    <div class="card-header">
-      <h3 onClick="send(1)">HAM Radio 101</h3>
-    </div>
-    <div class="card-body">
-      <p>A starting point and guide for any ham enthusiast out there with a special edition based on satellite tracking.
-      </p>
-    </div>
-    <div class="card-footer">
-      <div class="footer-item">
-        <img src="./images/" />
-      </div>
-      <div class="footer-item">
-        <strong>John Doe</strong>
-        <span class="muted">Dec 15 2021</span>
-      </div>
-    </div>
-  </a>
-  <a class="card">
-    <div class="card-hero">
-      <img src="./images/transmission_tales.jpg" width="288" height="200" class="img" />
-    </div>
-    <div class="card-header">
-      <h3 onClick="send(2)">Transmission Tales</h3>
-    </div>
-    <div class="card-body">
-      <p style="margin-bottom: 25px;">Our first series with 11 blogs on the history, uses, and trivia of ham radio.</p>
-    </div>
-    <div class="card-footer">
-      <div class="footer-item">
-        <img src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDI3Nzc5MQ&ixlib=rb-1.2.1&q=85" class="avatar" width="32" height="32" />
-      </div>
-      <div class="footer-item">
-        <strong>John Doe</strong>
-        <span class="muted">Dec 10 2021</span>
-      </div>
-    </div>
-  </a>
-  <a class="card">
-    <div class="card-hero">
-      <img src="./images/communication_chronicles.jpg" width="288" height="200" class="img" />
-    </div>
-    <div class="card-header">
-      <h3 onClick="send(3)">Communication Chronicles</h3>
-    </div>
-    <div class="card-body">
-      <p>Technical blog series with the nuances and details about networking, communication, and space.</p>
-    </div>
-    <div class="card-footer">
-      <div class="footer-item">
-        <img src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDI3Nzc5MQ&ixlib=rb-1.2.1&q=85" class="avatar" width="32" height="32" />
-      </div>
-      <div class="footer-item">
-        <strong>John Doe</strong>
-        <span class="muted">Nov 26 2021</span>
-      </div>
-    </div>
-  </a>
-</div>
 
 
-<div>
-  <div class="cards">
-    <a class="card">
-      <div class="card-hero">
-        <img src="./images/ham.jpg" width="288" height="200" class="img" />
-      </div>
-      <div class="card-header">
-        <h3 onClick="send(4)">Highly Amateur Maestros (H.A.M.)</h3>
-      </div>
-      <div class="card-body">
-        <p style="margin-bottom: 30px;">Intricate details and fresh aspects of ham radio through a 5 post series.</p><br>
-      </div>
-      <div class="card-footer">
-        <div class="footer-item">
-          <img src="https://hrciitb.files.wordpress.com/2021/12/iih-1.png?w=1024" class="avatar" width="32" height="32" />
-        </div>
-        <div class="footer-item">
-          <strong>John Doe</strong>
-          <span class="muted">November 19, 2021</span>
-        </div>
-      </div>
-    </a>
-    <a class="card">
-      <div class="card-hero">
-        <img src="https://hrciitb.files.wordpress.com/2021/11/arsi-1.png?w=1024" width="288" height="200" class="img" />
-      </div>
-      <div class="card-header">
-        <h3 onClick="send(5)">Let’s Talk Ham: An interview series</h3>
-      </div>
-      <div class="card-body">
-        <p>An interview series on the significant contributions made by amateur radio organizations in India to encourage more and more people to carry out ham activities.</p>
-      </div>
-      <div class="card-footer">
-        <div class="footer-item">
-          <img src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDI3Nzc5MQ&ixlib=rb-1.2.1&q=85" class="avatar" width="32" height="32" />
-        </div>
-        <div class="footer-item">
-          <strong>John Doe</strong>
-          <span class="muted">November 12, 2021</span>
-        </div>
-      </div>
-    </a>
-    <!-- <a class="card">
+    <div>
+        <div class="cards">
+            <a class="card">
+                <div class="card-hero">
+                    <img src="./images/ham.jpg" width="288" height="200" class="img" />
+                </div>
+                <div class="card-header">
+                    <h3 onClick="send(4)">Highly Amateur Maestros (H.A.M.)</h3>
+                </div>
+                <div class="card-body">
+                    <p style="margin-bottom: 30px;">Intricate details and fresh aspects of ham radio through a 5 post
+                        series.</p><br>
+                </div>
+                <!-- <div class="card-footer">
+                    <div class="footer-item">
+                        <img src="https://hrciitb.files.wordpress.com/2021/12/iih-1.png?w=1024" class="avatar"
+                            width="32" height="32" />
+                    </div>
+                    <div class="footer-item">
+                        <strong>John Doe</strong>
+                        <span class="muted">November 19, 2021</span>
+                    </div>
+                </div> -->
+            </a>
+            <a class="card">
+                <div class="card-hero">
+                    <img src="https://hrciitb.files.wordpress.com/2021/11/arsi-1.png?w=1024" width="288" height="200"
+                        class="img" />
+                </div>
+                <div class="card-header">
+                    <h3 onClick="send(5)">Let’s Talk Ham: An interview series</h3>
+                </div>
+                <div class="card-body">
+                    <p>An interview series on the significant contributions made by amateur radio organizations in India
+                        to encourage more and more people to carry out ham activities.</p>
+                </div>
+                <!-- <div class="card-footer">
+                    <div class="footer-item">
+                        <img src="https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MDI3Nzc5MQ&ixlib=rb-1.2.1&q=85"
+                            class="avatar" width="32" height="32" />
+                    </div>
+                    <div class="footer-item">
+                        <strong>John Doe</strong>
+                        <span class="muted">November 12, 2021</span>
+                    </div>
+                </div> -->
+            </a>
+            <!-- <a class="card">
     <div class="card-hero">
       <img src="https://hrciitb.files.wordpress.com/2021/11/niar-1.png?w=1024" width="288" />
     </div>
@@ -350,6 +359,6 @@ include "header.php"; ?>
       </div>
     </div>
   </a> -->
-  </div>
+        </div>
 
-</div>
+    </div>
