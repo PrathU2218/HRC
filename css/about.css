@@ -22,31 +22,32 @@
 
 #i03left {
     margin-left: 20px;
-     font-family: Lora;
+    font-family: Lora;
     font-style: normal;
     font-weight: normal;
-    font-size: 70px;
+    font-size: 62px;
     line-height: 82px;
     transform: scalex(-1);
     text-align: right;
     padding-right: 2%;
-
 }
 
 #i02 {
     color: white;
-     display: flex;
+    display: flex;
     align-items: center;
     padding: 0px;
     margin-left: 0px;
     margin-top:80px;
     margin-right: 0px;
-    background-size: auto;
+    background-size: cover;
     min-height: 70vh;
-    background-image: url("../images/mask.png");
+    background-image: url("../images/ham101.jpg");
     background-repeat:no-repeat;
     background-position: right;
-    transform: scalex(-1);
+        transform: scalex(-1);
+    background-blend-mode: saturation;
+    /* transform: rotateY(180); */
 }
 
 #i02below {
@@ -61,9 +62,17 @@
 
 #i02left {
     color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 70vh;
-    background-image: url("../images/mask.png");
+    background-image: url("../images/shack.png");
     background-repeat:no-repeat;
     background-position: right;
+    background-size: cover;
+}
+#i100left {
+    color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 70vh;
+    background-image: url("../images/intro_image.png");
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: cover;
 }
 
 #i05 {
@@ -110,7 +119,7 @@ a {
 }
 
 #i04below {
-     font-family: Lato;
+    font-family: Lato;
     font-style: normal;
     font-weight: normal; 
     font-size: 18px;
@@ -120,20 +129,21 @@ a {
     top:25%;
     margin:auto; 
     text-align: justify;
+    width:85%;
 }
 
 #i06 {
     height: 300px;
-    width: 500px;
+    width: 90%;
     
 }
 .row {
     display: flex;
   }
   
-  .column {
+.column {
     flex: 50%;
-  }
+}
 
 .image-left{
     float: right;
@@ -141,8 +151,11 @@ a {
 #contentcol{
     margin: auto;
 }
+.container{
+    width:80%;
+}
 @media (max-width:400px) {
-    #i02, #i02left{
+    #i02, #i02left, #i100left{
         background-image: none;
     }
     #i05, #i03left, #i04{
@@ -152,11 +165,15 @@ a {
         margin-left: 0px;
         text-align: justify;
     }
+    #i03left{
+        font-size: 32px;
+    }
     #i03, #i05{
         padding-left: 0px;
     }
     #i04below{
        top:0%; 
+       width:100%;
     }
     #i06{
         width:100%;
@@ -168,4 +185,8 @@ a {
     #i02below{
         display: flex;
     }
+    .container{
+        width:100%;
+    }
+
 }
