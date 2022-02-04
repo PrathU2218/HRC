@@ -39,15 +39,18 @@
                     </li>
                   </ul> -->
                         </li>
-                        <li>
-                            <a href="#!">What we do</a>
+                        <li class="dropdown">
+                            <!-- <a href="javascript:void(0)">What we do</a>
                             <ul class="nav-dropdown">
                                 <li>
                                     <a href="gsw.php" style="margin:0px;">GSW (Flagship event)</a>
                                 </li>
                                 <li>
-                                    <a href="sessions.php" style="margin:0px;">Hands-on Sessions
-                                    <!-- <ul class="nav-dropdown">
+                                    <a href="sessions.php" style="margin:0px;">Hands-on Sessions</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" style="margin:0px;">Technical Activities </a>
+                                    <ul class="nav-dropdown">
                                         <li>
                                             <a href="#!">Antenna Making and Satellite Tracking</a>
                                         </li>
@@ -57,13 +60,24 @@
                                         <li>
                                             <a href="#!">How Things Work</a>
                                         </li>
-                                    </ul> -->
-</a>
+                                    </ul>
                                 </li>
-                                <li>
-                                    <a href="#!" style="margin:0px;">Technical Activities</a>
+                            </ul> -->
+
+                            <button class="dropbtn">What we do</button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 2</a></li>
+                                <li class="dropdown-submenu">
+                                    <button class="dropbtn-2">Link 3</button>
+                                    <ul class="dropdown-menu-2">
+                                        <li><a href="#">Link 1</a></li>
+                                        <li><a href="#">Link 2</a></li>
+                                        <li><a href="#">Link 3</a></li>
+                                    </ul>
                                 </li>
-                                </ul>
+                            </ul>
+
                         </li>
                         <li>
                             <a href="hamexam.php">Ham Exam</a>
