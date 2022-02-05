@@ -4,16 +4,20 @@ include "header.php"; ?>
 <!-- <div> -->
 <script>
 send = (num) => {
-    switch (num) {
-        case 1:
+    // switch (Number(num)) {
+        if (num==1) {
             window.location.href = 'https://hrciitb.wordpress.com/category/ham-radio-101/'
-        case 2:
+        }
+        if (num==2){
             window.location.href = 'https://hrciitb.wordpress.com/category/transmission-tales/'
-        case 3:
+        }
+        if (num==3) {
             window.location.href = 'https://hrciitb.wordpress.com/category/the-communication-chronicles/'
-        case 4:
+        }
+        if(num==4){
             window.location.href = 'https://hrciitb.wordpress.com/category/h-a-m/'
-        case 5:
+        }
+        if(num==5){
             window.location.href = 'https://hrciitb.wordpress.com/category/lets-talk-ham/'
     }
 }
