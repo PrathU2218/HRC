@@ -1,9 +1,13 @@
-#i01 {background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
+#i01 {
+    background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 350px;
+    text-align: center;
 }
-   
+
+
 /* #i02 {
    color: white; padding: 20px; margin-left: 40px; margin-top:0px; margin-right: 40px; background-image: url(https://images.ctfassets.net/hrltx12pl8hq/61DiwECVps74bWazF88Cy9/2cc9411d050b8ca50530cf97b3e51c96/Image_Cover.jpg?fit=fill&w=480&h=270);
   background-image: url(mask.png);
@@ -12,169 +16,177 @@
 } */
 
 .image-left {
-   margin-left: 40px;
+    margin-left: 40px;
 }
 
 #i03 {
-   margin-left: 600px;
+    margin-left: 600px;
     font-family: Lora;
     color: orange;
     margin-top: 100px;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 48px;
-   line-height: 82px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 82px;
 }
 
 #i03left {
-   margin-left: 40px;
+    margin-left: 40px;
     font-family: Lora;
     color: orange;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 48px;
-   line-height: 82px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 82px;
 }
 
 #i02 {
-   color: white;
+    color: white;
     display: flex;
-   align-items: center;
-   padding: 20px;
-   margin-left: 0px;
-   margin-top:0px;
-   margin-right: 0px;
-   background-size: auto;
-   min-height: 70vh;
-   background-image: url("../images/mask.png");
-   background-repeat:no-repeat;
-   background-position: right;
+    align-items: center;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-size: auto;
+    min-height: 70vh;
+    background-image: url("../images/mask.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #i02below {
-   color: white;
-   display: flex;
-   align-items: center;
-   padding: 0px;
-   margin: 20px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 20px 0px;
 }
 
-
 #i02left {
-   color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 70vh;
-   background-image: url("../images/mask.png");
-   background-repeat:no-repeat;
-   background-position: right;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-size: auto;
+    min-height: 70vh;
+    background-image: url("../images/mask.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #i05 {
-   margin-left: 600px;  font-family: Lato;
-   font-style: normal;
-   width: 50%;
-   font-weight: normal; font-size: 18px;
-   line-height: 29px;
-   color: #FFFFFF;
+    margin-left: 600px;
+    font-family: Lato;
+    font-style: normal;
+    width: 50%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
+
 #i04 {
-   margin-left: 40px;  
-   font-family: Lato;
-   font-style: normal;
-   width: 50%;
-   margin-right: 600px;
-   font-weight: normal; font-size: 18px;
-   line-height: 29px;
-   color: #FFFFFF;
+    margin-left: 40px;
+    font-family: Lato;
+    font-style: normal;
+    width: 50%;
+    margin-right: 600px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
 
 #i04below {
-   margin-left: 40px; 
-   text-align: justify;
+    margin-left: 40px;
+    text-align: justify;
     font-family: Lato;
-   font-style: normal;
-   font-weight: normal; 
-   margin-top: 50px;
-   font-size: 18px;
-   line-height: 29px;
-   color: #FFFFFF;
-   width: 80%;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 80%;
 }
 
 #i04below0 {
-    margin-left: 40px; 
-     font-family: Lato;
+    margin-left: 40px;
+    font-family: Lato;
     font-style: normal;
-   text-align: justify;
-    font-weight: normal; 
+    text-align: justify;
+    font-weight: normal;
     margin-top: 100px;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
-   width: 80%;
+    width: 80%;
+}
 
- }
-
- #i04below2 {
-    margin-left: 40px; 
-     font-family: Lato;
+#i04below2 {
+    margin-left: 40px;
+    font-family: Lato;
     font-style: normal;
-    font-weight: normal; 
-   text-align: justify;
+    font-weight: normal;
+    text-align: justify;
     margin-top: 100px;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
-   width: 80%;
+    width: 80%;
+}
 
- }
-
- #i04below5 {
+#i04below5 {
     text-align: center;
     text-align: justify;
     font-family: Lato;
-   font-style: normal;
-   text-align: justify;
-   font-weight: normal;
-   font-size: 18px;
-   line-height: 29px;
-   width: 80%;
-   margin: 20px;
-   color: #FFFFFF;
- }
-
- #i04below3 {
-   margin-left: 40px; 
-    font-family: Lato;
-   font-style: normal;
-   text-align: justify;
-   font-weight: normal; 
-   margin-top: 0px;
-   font-size: 18px;
-   line-height: 29px;
-   width: 80%;
-
-   color: #FFFFFF;
+    font-style: normal;
+    text-align: justify;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    width: 80%;
+    margin: 20px;
+    color: #FFFFFF;
 }
 
- #t01 {
-     margin-left: auto;
-     margin-right: auto;
-     border: 3px solid white;
-     color: white;
-     padding: 10px;
-     width: 80%;
-     font-size: 18px;
- }
+#i04below3 {
+    margin-left: 40px;
+    font-family: Lato;
+    font-style: normal;
+    text-align: justify;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 29px;
+    width: 80%;
+    color: #FFFFFF;
+}
 
- #h000{
-     color: white;
-     margin-left: 40px;
-     font-size: 24px;
-     font-family: Lato;
-     margin-top: 10px;
-     margin-bottom: 30px;
- }
+#t01 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    font-size: 18px;
+}
 
- #t02 {
+#h000 {
+    color: white;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: Lato;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#t02 {
     margin-left: auto;
     margin-right: auto;
     border: 3px solid white;
@@ -190,57 +202,75 @@
     padding: 10px;
 }
 
-#i000{
+#i000 {
     margin-top: 25px;
 }
 
 #image {
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column {
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #i06 {
-   height: 300px;
-   width: 500px;
-   margin: 0px 20px 0px 20px;
-   margin-right: 20px;
-   margin-left: 40px;
+    height: 300px;
+    width: 500px;
+    margin: 0px 20px 0px 20px;
+    margin-right: 20px;
+    margin-left: 40px;
 }
 
 #i060 {
-   height: 350px;
-   width: 500px;
-   margin: 0px 20px 0px 20px;
-   margin-right: 20px;
-   margin-left: 40px;
+    height: 350px;
+    width: 500px;
+    margin: 0px 20px 0px 20px;
+    margin-right: 20px;
+    margin-left: 40px;
 }
 
 .row {
-   display: flex;
- }
- 
- .column {
-   flex: 50%;
- }
+    display: flex;
+}
 
- .section2-img1 {
-   position: absolute;
-   display: inline-block;
-   width: 40%;
-   height: auto;
-   margin-top: 30%;
-   right: 40%;
- }
- .section2-img2 {
-   position: absolute;
-   display: inline-block;
-   width: 40%;
-   height: auto;
-   margin-top: 5%;
-   right: 5%;
- }
+.column {
+    flex: 50%;
+}
+
+.section2-img1 {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-top: 30%;
+    right: 40%;
+}
+
+.section2-img2 {
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-top: 5%;
+    right: 5%;
+}
+
+@media screen and (max-width: 1100px) {
+    #i06 {
+        height: 250px;
+        width: 300px;
+        margin: 0px 20px 0px 20px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    #i060 {
+        height: 250px;
+        width: 300px;
+        margin: 0px 20px 0px 20px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+}

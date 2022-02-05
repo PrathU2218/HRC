@@ -147,11 +147,12 @@ line-height: 29px;
     font-family: Lato;
     font-style: normal;
     font-size: 18px;
+    padding-bottom: 50px;
 }
 
 .img1 {
-    margin-top: 60px;
-    width: 98%;
+    margin-top: 40px;
+    width: 78%;
     height: 420px;
 }
 

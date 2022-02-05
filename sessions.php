@@ -1,4 +1,4 @@
-<?php $title="Hands-on sessions"; include "header.php"; ?>
+<?php $title="HANDS ON SESSIONS"; include "header.php"; ?>
 
 <head>
     <link rel="stylesheet" href="css/sessions.css">
@@ -140,7 +140,7 @@
                <div class="session_content">The entire process of online tracking can be found on our blog Ham
                 Radio 101 and the event videos are present on our Youtube Channel.
                 </div>
-                <div class="row">
+                <div class="row" style="text-align: center;">
                     <div class="col-md-6">
                     <iframe width="80%" height="300" src="https://www.youtube.com/embed/XekmcHyvoYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>

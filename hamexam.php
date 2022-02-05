@@ -40,7 +40,7 @@ include 'header.php'; ?>
       </div>
   </div>
   <div class="row" id="left">
-            <div class="col-sm">
+            <div class="col-sm" style="text-align: center;">
                 <img src="images\MorseMania.jpg" class="img1">
             </div>
           <div class="col-sm" id="text9">
@@ -59,13 +59,4 @@ include 'header.php'; ?>
     </div>
 </div>
 
-
-
-
-
-
-
-   
-
-
-
+<?php include 'footer.php'; ?>

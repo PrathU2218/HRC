@@ -1,7 +1,11 @@
-.i01 {background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
-     margin-bottom: 0px;
-     min-height: 100vh;
+.i01 {
+    background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
+    margin-bottom: 0px;
+    min-height: 100vh;
+    padding-bottom: 50px;
 }
+
+
 /* #i02 {
     color: white; padding: 20px; margin-left: 40px; margin-top:0px; margin-right: 40px; background-image: url(https://images.ctfassets.net/hrltx12pl8hq/61DiwECVps74bWazF88Cy9/2cc9411d050b8ca50530cf97b3e51c96/Image_Cover.jpg?fit=fill&w=480&h=270);
    background-image: url(mask.png);
@@ -16,7 +20,7 @@
     font-size: 70px;
     line-height: 82px;
     position: relative;
-    bottom:50px;
+    bottom: 50px;
     padding-left: 3%;
 }
 
@@ -38,14 +42,14 @@
     align-items: center;
     padding: 0px;
     margin-left: 0px;
-    margin-top:80px;
+    margin-top: 80px;
     margin-right: 0px;
     background-size: cover;
     min-height: 70vh;
     background-image: url("../images/ham101.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: right;
-        transform: scalex(-1);
+    transform: scalex(-1);
     background-blend-mode: saturation;
     /* transform: rotateY(180); */
 }
@@ -56,21 +60,37 @@
     align-items: center;
     /* margin: 30px 0px; */
     padding-left: 0%;
-    padding-top:80px;
+    padding-top: 80px;
 }
 
-
 #i02left {
-    color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 70vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-size: auto;
+    min-height: 70vh;
     background-image: url("../images/shack.png");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
 }
+
 #i100left {
-    color: white; display: flex; align-items: center;  padding: 0px; margin-left: 0px; margin-top:0px; margin-right: 0px; background-size: auto; min-height: 70vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-size: auto;
+    min-height: 70vh;
     background-image: url("../images/intro_image.png");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
 }
@@ -79,25 +99,30 @@
     font-family: Lato;
     font-style: normal;
     width: 40%;
-    font-weight: normal; font-size: 18px;
+    font-weight: normal;
+    font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
     text-align: justify;
     position: relative;
-    bottom:30px;
+    bottom: 30px;
     padding-left: 3%;
 }
+
 #i04 {
-    margin-left: 20px;  font-family: Lato;
+    margin-left: 20px;
+    font-family: Lato;
     font-style: normal;
     width: 40%;
-    font-weight: normal; font-size: 18px;
+    font-weight: normal;
+    font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
     transform: scalex(-1);
     text-align: justify;
     padding-right: 2%;
 }
+
 a:link {
     color: white;
 }
@@ -121,72 +146,80 @@ a {
 #i04below {
     font-family: Lato;
     font-style: normal;
-    font-weight: normal; 
+    font-weight: normal;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
     position: relative;
-    top:25%;
-    margin:auto; 
+    top: 25%;
+    margin: auto;
     text-align: justify;
-    width:85%;
+    width: 85%;
 }
 
 #i06 {
     height: 300px;
     width: 90%;
-    
 }
+
 .row {
     display: flex;
-  }
-  
+}
+
 .column {
     flex: 50%;
 }
 
-.image-left{
+.image-left {
     float: right;
 }
-#contentcol{
+
+#contentcol {
     margin: auto;
 }
-.container{
-    width:80%;
+
+.container {
+    width: 80%;
 }
+
 @media (max-width:400px) {
-    #i02, #i02left, #i100left{
+    #i02,
+    #i02left,
+    #i100left {
         background-image: none;
     }
-    #i05, #i03left, #i04{
+    #i05,
+    #i03left,
+    #i04 {
         width: 100%;
     }
-    #i03left, #i04{
+    #i03left,
+    #i04 {
         margin-left: 0px;
         text-align: justify;
     }
-    #i03left{
+    #i03left {
         font-size: 32px;
     }
-    #i03, #i05{
+    #i03,
+    #i05 {
         padding-left: 0px;
     }
-    #i04below{
-       top:0%; 
-       width:100%;
+    #i04below {
+        top: 0%;
+        width: 100%;
     }
-    #i06{
-        width:100%;
+    #i06 {
+        width: 100%;
         height: auto;
     }
-    #i05{
+    #i05 {
         text-align: justify;
     }
-    #i02below{
+    #i02below {
         display: flex;
     }
-    .container{
-        width:100%;
+    .container {
+        width: 100%;
     }
-
 }

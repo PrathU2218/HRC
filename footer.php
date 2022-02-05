@@ -9,9 +9,9 @@
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	font: bold 16px Lora;
-	padding: 30px 50px;
+	padding: 30px 40px;
 	margin-top: 0px;
 }
 
@@ -20,7 +20,8 @@
 .footer-distributed .footer-right{
 	display: inline-block;
 	vertical-align: top;
-	padding-right: 30px;
+	text-align: left;
+	margin-right: 30px;
 }
 
 /* Footer left */
@@ -103,9 +104,15 @@
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
-	color:  lightseagreen;
+.footer-distributed .footer-center a{
+	color: white;
 	text-decoration: none;;
+}
+
+.footer-distributed .footer-center a:hover{
+	color: #5865F2;
+	text-decoration: none;
+	transition: 0.3s ease;;
 }
 
 .footer-distributed .footer-links a:before {
@@ -129,7 +136,7 @@
 /* Footer Right */
 
 .footer-distributed .footer-right{
-	width: 20%;
+	width: 15%;
 }
 
 .footer-distributed .footer-company-about{
@@ -175,8 +182,8 @@
 	/* background: linear-gradient(45deg, #405DE6, #5251DB, #833AB4, #C13584, #E1306C, #FD1D1D); */
 }
 
-.footer-icons #twitter:hover {
-	color: #1DA1F2;
+.footer-icons #youtube:hover {
+	color: #FF0000;
 	transition: 0.3s ease;
 	/* background: linear-gradient(45deg, #405DE6, #5251DB, #833AB4, #C13584, #E1306C, #FD1D1D); */
 }
@@ -190,6 +197,13 @@
 	transition: 0.3s ease;
 	/* background: linear-gradient(45deg, #405DE6, #5251DB, #833AB4, #C13584, #E1306C, #FD1D1D); */
 }
+
+.footer-icons #discord:hover {
+	color: #5865F2;
+	transition: 0.3s ease;
+	/* background: linear-gradient(45deg, #405DE6, #5251DB, #833AB4, #C13584, #E1306C, #FD1D1D); */
+}
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
@@ -239,16 +253,14 @@
 			</div>
 
 			<div class="footer-center">
-
-        <div></div>
 				<div>
-					<i class="fa fa-phone" style="font-size:15px;"></i>
-					<p style="font-size:18px;"> +91-22-2576-4147</p>
+					<i class="fab fa-discord" style="font-size:15px;"></i>
+					<a href="https://discord.gg/bMFkEQPtdH" style="font-size:18px;">Join us on Discord</a>
 				</div>
 
 				<div>
 					<i class="fa fa-envelope" style="font-size:15px;"></i>
-					<p><a href="mailto:support@company.com" style="color: white; font-size:18px;">iitbssp@iitb.ac.in</a></p>
+					<p><a href="mailto:hamradioclub.iitb@gmail.com" style="color: white; font-size:18px;">hamradioclub.iitb@gmail.com</a></p>
 				</div>
 
 			</div>
@@ -261,10 +273,11 @@
 
 				<div class="footer-icons">
 
-					<a id="facebook" href="https://www.facebook.com/iitb.student.satellite/" target="_blank"><i class="fab fa-facebook-f" style="padding: 10px;"></i></a>
-					<a id="twitter" href="https://twitter.com/satlabiitb" target="_blank"><i class="fab fa-twitter" style="padding: 10px;"></i></a>
-					<a id="linkedin" href="https://www.linkedin.com/company/advitiy-iit-bombay-student-satellite/" target="_blank"><i class="fab fa-linkedin-in" style="padding: 10px;"></i></a>
-					<a id="instagram" href="https://instagram.com/iitbssp" target="_blank"><i class="fab fa-instagram" style="padding: 10px;"></i></a>
+					<a id="facebook" href="https://www.facebook.com/HamclubIITB" target="_blank"><i class="fab fa-facebook-f" style="padding: 10px;"></i></a>
+					<a id="youtube" href="https://www.youtube.com/channel/UCM-huMvA7y-FYloRkw3beKA" target="_blank"><i class="fab fa-youtube" style="padding: 10px 5px;"></i></a>
+					<a id="linkedin" href="https://www.linkedin.com/company/ham-radio-club-iit-bombay/" target="_blank"><i class="fab fa-linkedin-in" style="padding: 10px;"></i></a>
+					<a id="instagram" href="https://www.instagram.com/hrc.iitb/" target="_blank"><i class="fab fa-instagram" style="padding: 10px;"></i></a>
+					<!-- <a id="discord" href="https://discord.gg/bMFkEQPtdH" target="_blank"><i class="fab fa-discord" style="padding: 10px 5px;"></i></a> -->
 
 				</div>
 

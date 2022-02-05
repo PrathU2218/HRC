@@ -38,11 +38,24 @@ if(isset($_POST['submit'])){
         </div>
         <div class="contact_info">
             <div id="contact-head">Email: </div>
-            <div id="contact-tail">hamradioclub.iitb@gmail.com</div>
+            <div id="contact-tail"><a id="mail"
+                    href="mailto:hamradioclub.iitb@gmail.com">hamradioclub.iitb@gmail.com</a></div>
         </div>
         <div class="contact_info">
-            <div id="contact-head">Address: </div>
-            <div id="contact-tail">Address Here !</div>
+            <div id="contact-head">Contact: </div>
+            <div id="contact-tail">
+                <a id="facebook" href="https://www.facebook.com/HamclubIITB" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a id="youtube" href="https://www.youtube.com/channel/UCM-huMvA7y-FYloRkw3beKA" target="_blank"><i
+                        class="fab fa-youtube"></i></a>
+                <a id="linkedin" href="https://www.linkedin.com/company/ham-radio-club-iit-bombay/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a id="instagram" href="https://www.instagram.com/hrc.iitb/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a id="discord" href="https://discord.gg/bMFkEQPtdH" target="_blank"><i
+                        class="fab fa-discord" style="padding: 10px;"></i></a>
+
+            </div>
         </div>
     </div>
 </div>

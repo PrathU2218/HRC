@@ -28,7 +28,7 @@ send = (num) => {
     <div class="cards">
         <a class="card">
             <div class="card-hero" onClick="send(1)">
-                <img src="./images/ham101.jpg" width="288" height="200" class="img" />
+                <img src="./images/hamradio101.jpg" width="288" height="200" class="img" />
             </div>
             <div class="card-header">
                 <h3 onClick="send(1)">HAM Radio 101</h3>
@@ -362,3 +362,4 @@ send = (num) => {
         </div>
 
     </div>
+    <?php include 'footer.php'; ?>

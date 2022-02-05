@@ -20,7 +20,7 @@ include 'header.php'; ?>
       </div>
       <div class="member-info">
         <h3>Arpit Verma</h3>
-        <p>Founder & CEO</p>
+        <p></p>
         <div class="social-link">
           <a href="https://www.facebook.com/profile.php?id=100009854465275" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <!-- <i class="fab fa-twitter"></i> -->
@@ -34,7 +34,7 @@ include 'header.php'; ?>
       </div>
       <div class="member-info">
         <h3>Anuj S Agrawal</h3>
-        <p>Product Manager</p>
+        <p>Manager</p>
         <div class="social-link">
           <a href="https://www.facebook.com/profile.php?id=100008234599104" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://twitter.com/anujsagrawal22?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -48,7 +48,7 @@ include 'header.php'; ?>
       </div>
       <div class="member-info">
         <h3>Pawan Mavlia</h3>
-        <p>Marketing Head</p>
+        <p></p>
         <div class="social-link">
           <a href="https://www.facebook.com/profile.php?id=100037822874317" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <!-- <i class="fab fa-twitter"></i> -->
@@ -71,8 +71,8 @@ include 'header.php'; ?>
       </div>
     </li> -->
   </ul>
-  <h1 style="color: white; text-align: center;margin:50px 0;">PAST TEAM  MEMBERS</h1>
-
+  <h1 style="color: white; text-align: center;margin:50px 0;">PAST TEAM  MANAGER</h1>
+</div>
 <div id="past">
 <ul class="list-members">
   <li class="member">
@@ -81,7 +81,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Dhrumil Shah</h3>
-      <p>Founder & CEO</p>
+      <p>Manager (2018-2019)</p>
       <div class="social-link">
         <a href="https://www.facebook.com/dhrumil.shah.1420" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <!-- <i class="fab fa-twitter"></i> -->
@@ -95,7 +95,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Ritik Bilala</h3>
-      <p>Product Manager</p>
+      <p>Manager (2019-2020)</p>
       <div class="social-link">
         <a href="https://www.facebook.com/RitikBilala" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <!-- <i class="fab fa-twitter"></i> -->
@@ -109,7 +109,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Siddhi Nagre</h3>
-      <p>Marketing Head</p>
+      <p>Manager (2020-2021)</p>
       <div class="social-link">
         <a href="https://www.facebook.com/siddhi.nagre" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <!-- <i class="fab fa-twitter"></i> -->
@@ -123,7 +123,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Arpit Verma</h3>
-      <p>Affiliate Manager</p>
+      <p>Manager (2021-2022)</p>
       <div class="social-link">
       <a href="https://www.facebook.com/profile.php?id=100009854465275" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <!-- <i class="fab fa-twitter"></i> -->
@@ -135,3 +135,4 @@ include 'header.php'; ?>
 </div>
 
 </div>
+<?php include 'footer.php'; ?>

@@ -65,7 +65,7 @@
                             </ul> -->
 
                             <button class="dropbtn">What we do</button>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu-1">
                                 <li><a href="gsw.php">GSW (Flagship event)</a></li>
                                 <li><a href="sessions.php">Hands-on Sessions</a></li>
                                 <li class="dropdown-submenu">
