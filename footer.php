@@ -239,14 +239,12 @@
 				<p class="footer-links">
 					<a href="index.php" class="link-1" style="font-size:18px;">Home</a>
 					
-					<a href="pratham.php"  style="font-size:18px;">Pratham</a>
+					<a href="gsw.php"  style="font-size:18px;">GSW</a>
 				
-					<a href="timeline.php" style="font-size:18px;">Timeline</a>
+					<a href="hamexam.php" style="font-size:18px;">Ham Exam</a>
 				
-					<a href="faq.php" style="font-size:18px;">FAQs</a>
-					
-					<a href="ham.php" style="font-size:18px;">HRC</a> 
-					
+					<a href="blogs.php" style="font-size:18px;">Blogs</a>
+										
 				</p>
 
 				<p class="footer-company-name" style="color:white;" style="font-size:15px;">© IIT Bombay Student Satellite Program 2021. Any reproduction MUST be accompanied by a reference to the Satellite Program.</p>

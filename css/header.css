@@ -230,6 +230,12 @@ article {
     white-space: nowrap;
 }
 
+@media only screen and (max-width: 899px) {
+    #text2 {
+        font-size: 30px;
+    }
+}
+
 
 /* .page_header{
     position: relative;
@@ -414,10 +420,13 @@ article {
 @media only screen and (max-width: 899px) {
     .dropdown {
         width: 100%;
+        background: #262626;
     }
     .dropbtn {
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        top: 0;
+        background: #262626;
     }
     #nav-toggle.active .dropdown-menu,
     #nav-toggle.active .dropdown-menu-2 {

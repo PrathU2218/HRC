@@ -12,11 +12,8 @@
 <body>
     <div class="container-fluid i01">
         <div style="min-height:350px;"></div>
-        <div id="i100left">
+        <!-- <div id="i100left">
             <div>
-                <!-- <p id="i03">
-                    About Us
-                </p> -->
                 <div id="i05">
                     Ham Radio Club has the vision to foster and grow the amateur radio community at IIT Bombay and
                     beyond. Ham radio is a hobby and technology that allows us to interact with people across the globe
@@ -25,7 +22,7 @@
                     numerous ham radio licenses.
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="i02">
             <div>
                 <p id="i03left">

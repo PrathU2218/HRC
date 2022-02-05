@@ -81,7 +81,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Dhrumil Shah</h3>
-      <p>Manager (2018-2019)</p>
+      <p>Manager (2017-2018)</p>
       <div class="social-link">
         <a href="https://www.facebook.com/dhrumil.shah.1420" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <!-- <i class="fab fa-twitter"></i> -->
@@ -95,7 +95,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Ritik Bilala</h3>
-      <p>Manager (2019-2020)</p>
+      <p>Manager (2018-2019)</p>
       <div class="social-link">
         <a href="https://www.facebook.com/RitikBilala" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <!-- <i class="fab fa-twitter"></i> -->
@@ -109,7 +109,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Siddhi Nagre</h3>
-      <p>Manager (2020-2021)</p>
+      <p>Manager (2019-2020)</p>
       <div class="social-link">
         <a href="https://www.facebook.com/siddhi.nagre" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <!-- <i class="fab fa-twitter"></i> -->
@@ -123,7 +123,7 @@ include 'header.php'; ?>
     </div>
     <div class="member-info">
       <h3>Arpit Verma</h3>
-      <p>Manager (2021-2022)</p>
+      <p>Manager (2020-2021)</p>
       <div class="social-link">
       <a href="https://www.facebook.com/profile.php?id=100009854465275" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <!-- <i class="fab fa-twitter"></i> -->

@@ -13,13 +13,12 @@
 
 <body>
     <div class="background">
-      <img src="images/hrc_logo2.jpeg" />
-      <h2>“We bring people, communication, and electronics together.” </h2>
+        <img src="images/hrc_logo2.jpeg" />
+        <h2>“We bring people, communication, and electronics together.” </h2>
     </div>
     <div class="container" id="i02below">
-        <div class="row">
-            <!-- <div class="flex-container"> -->
-            <!-- <div> -->
+        <!-- <div class="row">
+
             <div class="column">
                 <div id="i04below">
                     Yagi-Uda Antenna
@@ -31,15 +30,20 @@
 
                 </div>
             </div>
-            <!-- </div> -->
-            <!-- <div> -->
+
             <div class="column">
                 <div>
                     <img src="./images/yagi.jpg" id="i06" class="image-left"></img>
                 </div>
             </div>
-            <!-- </div> -->
-            <!-- </diV> -->
+
+        </div> -->
+        <div class="intro-text">
+            <h3> Ham Radio Club has the vision to foster and grow the amateur radio community at IIT Bombay and
+                beyond. Ham radio is a hobby and technology that allows us to interact with people across the globe
+                using wireless communication. As a subsidiary of the IIT Bombay Student Satellite Program, we aim to
+                set up a full-fledged autonomous ground station with advanced and updated technology while attaining
+                numerous ham radio licenses.</h3>
         </div>
     </div>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -56,66 +60,62 @@
                     <div class="carousel-inner">
 
                         <div class="item active " data-slide-number="0">
-                            <img src="images/1.jpg" height="100%">
+                            <img src="images/1_1.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> Clean Room </h3>
-                                <p> Our team members working in the clean room. All the hardware tests and
-                                    mock-integrationshappen here.</p>
+                                <h3> &nbsp; </h3>
+                                <p>Ground Station of our own student satellite, Pratham launched in 2016</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="1">
                             <img src="images/2.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3>Dinner with IPGP team</h3>
-                                <p>Pratham’s founding team having dinner with the IPGP France team. IPGP built a
-                                    ground-station for receiving Pratham’s electron count data.</p>
+                                <h3> &nbsp; </h3>
+                                <p>Ground Station Workshop’ 2020</p>
                             </div>
                         </div>
                         <div class="item" data-slide-number="2">
                             <img src="images/3.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3>National Science Day at Selu</h3>
-                                <p>The team was invited as the chief guest. The enthusiasm of the kids was contagious!
+                                <h3> &nbsp; </h3>
+                                <p>Hands on antenna making sessions followed by satellite tracking sessions
                                 </p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="3">
                             <img src="images/4.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> Ex-ISRO chief</h3>
-                                <p> Picture with ex-ISRO chief Dr. Radhakrishnan.</p>
+                                <h3> &nbsp; </h3>
+                                <p> Online NOAA satellite tracking session using webSDRs, Covid couldn't stop us
+                                    tracking!</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="4">
                             <img src="images/5.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> Pic with Ex-NASA administrator</h3>
-                                <p> Our team Ex-NASA administrator Charles Boulden</p>
+                                <h3> &nbsp; </h3>
+                                <p>Our radio shack with all the equipment we use to perform ham radio activities</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="5">
                             <img src="images/6.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> Flag OFF Ceremony</h3>
-                                <p>Our team members accompanying Pratham to its final journey on earth. </p>
+                                <h3> &nbsp; </h3>
+                                <p>Collaboration between MARI & HRC</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="6">
                             <img src="images/7.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> Flag OFF Ceremony</h3>
-                                <p> With ISAC Director M. Annadurai (center) and the Small Satellite Director of ISRO
-                                    and
-                                    the chief mentor to the Pratham poject, A. Khenned Sir</p>
+                                <h3> &nbsp; </h3>
+                                <p>A talk on the overview of ham radio by the Mumbai Amateur Radio Organisation</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="7">
                             <img src="images/8.jpeg" height="100%">
                             <div class="carousel-caption">
-                                <h3> Harbin Institute Forum</h3>
-                                <p> Interacting with satellite and space enthusiasts across the globe. The Pratham team
-                                    was
-                                    invited to present on the project.</p>
+                                <h3> &nbsp; </h3>
+                                <p>Student satellite team members tracking the ISS using a Yagi-uda antenna + receiver
+                                    setup</p>
                             </div>
                         </div>
                         <!-- <div class="item " data-slide-number="8">
