@@ -39,17 +39,64 @@
                         orientation, theory and work sessions. </div>
                 </div>
                 <div class="col-md-6">
-                <img src="images/mask.png" style="position:relative; width:100%;">
+                <!-- <img src="images/mask.png" style="position:relative; width:100%;"> -->
                     <!-- <div class="MagicScroll">
                         <img src="images/antenna_1.jpg">
                         <img src="images/antenna_2.jpg" >
                         <img src="images/antenna_3.jpg" >
                         <img src="images/antenna_4.jpg" >
                     </div> -->
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/antenna_1.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/antenna_2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/antenna_3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/antenna_4.jpg" alt="Third slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6"><img src="images/mask.png" style="position:relative; width:100%;"></div>
+
+                <div class="col-md-6">
+                <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/offline_1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/offline_2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/offline_3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
                 <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">What follows is a satellite tracking session where the enthusiasts test
                         their antennas. This might arguably be one of the most exciting tech events of the institute,
@@ -66,7 +113,28 @@
                         the internet. Attendees and enthusiasts are acquainted with N2YO.com, webSDR and gain first-hand
                         experience with software like Orbitron, MMSSTV, WxToImg, and ROBOT36. </div>
                 </div>
-                <div class="col-md-6"><img src="images/mask.png" style="position:relative; width:100%;"></div>
+                <div class="col-md-6"><div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/online_1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/online_2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/online_3.jpeg" alt="Third slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
             </div>
             <div>
                <div class="session_content">The entire process of online tracking can be found on our blog Ham
@@ -93,7 +161,31 @@
                 <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">Demonstration on the hands-on design of an FM transmitter. Students then build their own FM transmitter and transmit signals using that. </div>
                 </div>
-                <div class="col-md-6"><img src="images/mask.png" style="position:relative; width:100%;"></div>
+                <div class="col-md-6"><div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/fm1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/fm2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/fm3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/fm4.jpg" alt="Third slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
             </div>
             <hr style="position:relative; color:white;">
         </div>
@@ -110,7 +202,25 @@
                 <div class="col-md-6"><iframe width="80%" height="315" src="https://www.youtube.com/embed/zcpHzKjDD6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </div>
             <div class="row">
-            <div class="col-md-6"><img src="images/mask.png" style="position:relative; width:100%;"></div>
+            <div class="col-md-6"><div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/s1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/s2.jpg" alt="Second slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
                 <div class="col-md-6" style="margin:auto;">
                     <div class="session_content">The latest session was a live demonstration by Vaishnavi Agarwal on SSTV (slow-scan television) held on 10th January 2021. SSTV is a widely-used communication protocol in the amateur radio community and also by ARISS (Amateur radio on the International Space Station). Attendees were taught about the underlying theory of the SSTV protocol and how the encoding/decoding of an image/audio respectively is done in an SSTV interface. </div>
                 </div>
@@ -139,6 +249,31 @@
         document.getElementById("session3").style.display = "block";
     }
     </script> -->
+    <script>
+  jQuery(document).ready(function($) {
+
+    $('#myCarousel').carousel({
+      interval: 5000
+    });
+
+    //Handles the carousel thumbnails
+    $('[id^=carousel-selector-]').click(function() {
+      var id_selector = $(this).attr("id");
+      try {
+        var id = /-(\d+)$/.exec(id_selector)[1];
+        console.log(id_selector, id);
+        jQuery('#myCarousel').carousel(parseInt(id));
+      } catch (e) {
+        console.log('Regex failed!', e);
+      }
+    });
+    // When the carousel slides, auto update the text
+    $('#myCarousel').on('slid.bs.carousel', function(e) {
+      var id = $('.item.active').data('slide-number');
+      $('#carousel-text').html($('#slide-content-' + id).html());
+    });
+  });
+</script>
 </body>
 
 <?php include "footer.php"; ?>
