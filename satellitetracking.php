@@ -136,48 +136,48 @@
 
                         <div class="item active " data-slide-number="0">
                             <img src="images/diploma2021.png" height="100%">
-                            <div class="carousel-caption">
+                            <!-- <div class="carousel-caption">
                                 <h3> Clean Room </h3>
                                 <p> Our team members working in the clean room. All the hardware tests and
                                     mock-integrationshappen here.</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="item " data-slide-number="1">
                             <img src="images/diploma2020.jpg" height="100%">
-                            <div class="carousel-caption">
+                            <!-- <div class="carousel-caption">
                                 <h3>Dinner with IPGP team</h3>
                                 <p>Pratham’s founding team having dinner with the IPGP France team. IPGP built a
                                     ground-station for receiving Pratham’s electron count data.</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="item" data-slide-number="2">
                             <img src="images/diploma_1.jpg" height="100%">
-                            <div class="carousel-caption">
+                            <!-- <div class="carousel-caption">
                                 <h3>National Science Day at Selu</h3>
                                 <p>The team was invited as the chief guest. The enthusiasm of the kids was contagious!
                                 </p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="item " data-slide-number="3">
                             <img src="images/diploma_2.jpg" height="100%">
-                            <div class="carousel-caption">
+                            <!-- <div class="carousel-caption">
                                 <h3> Ex-ISRO chief</h3>
                                 <p> Picture with ex-ISRO chief Dr. Radhakrishnan.</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="item " data-slide-number="4">
                             <img src="images/diploma_3.jpg" height="100%">
-                            <div class="carousel-caption">
+                            <!-- <div class="carousel-caption">
                                 <h3> Pic with Ex-NASA administrator</h3>
                                 <p> Our team Ex-NASA administrator Charles Boulden</p>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="item " data-slide-number="5">
                             <img src="images/diploma_4.png" height="100%">
-                            <div class="carousel-caption">
+                            <!-- <div class="carousel-caption">
                                 <h3> Flag OFF Ceremony</h3>
                                 <p>Our team members accompanying Pratham to its final journey on earth. </p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- <div class="item " data-slide-number="6">
             <img src="images/7.jpg" height="100%">
