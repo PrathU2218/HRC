@@ -1,4 +1,4 @@
-<?php $title="Ground Station Workshop"; include "header.php"; ?>
+    <?php $title="Ground Station Workshop"; include "header.php"; ?>
 
 <head>
     <link rel="stylesheet" href="css/gsw.css">
@@ -8,9 +8,9 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </head>
-    <div style="min-width:100px;">
-    <div class="whole"> 
-    <div style="min-height:350px;"></div>
+    <div style="min-width:100px;" class="whole">
+    <div class="container-fluid"> 
+        <div style="min-height:350px;"></div>
         <div class="container" id="i02left">
             <div style="align-items: center">
                 <!-- <p id="i03">
@@ -37,7 +37,27 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </div>
 
+<!-- <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/s1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/s2.jpg" alt="Second slide">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div> -->
+  </div>
 <?php include "footer.php";?>

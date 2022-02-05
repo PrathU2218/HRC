@@ -4,10 +4,10 @@
 }
 
 #i02left {
-    color: white; display: flex; align-items: center;  padding: 0px;  margin-top:40px;  background-size: auto; min-height: 70vh;
-    background-image: url("../images/mask.png");
+    color: white; display: flex; align-items: center;  padding: 0px;  margin-top:40px;  background-size: cover; min-height: 70vh;
+    background-image: url("../images/gsw1.jpg");
     background-repeat:no-repeat;
-    background-position: right;
+    background-position:right;
     position: absolute; 
     width: 100%;
     right:0px;
@@ -36,7 +36,6 @@
     margin-top: 0px;
 }
 
-
 @media (max-width:400px) {
     #i02left{
         background-image:none;
@@ -54,4 +53,5 @@
         margin-bottom: 10px;
         right:auto;
     }
+
 }
