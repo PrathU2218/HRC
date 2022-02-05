@@ -358,6 +358,7 @@ article {
 .dropdown {
     position: relative;
     display: inline-block;
+    background: #262626;
 }
 
 .dropdown-menu li,

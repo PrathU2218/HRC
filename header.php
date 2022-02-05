@@ -66,14 +66,14 @@
 
                             <button class="dropbtn">What we do</button>
                             <ul class="dropdown-menu">
-                                <li><a href="#">GSW (Flagship event)</a></li>
-                                <li><a href="#">Hands-on Sessions</a></li>
+                                <li><a href="gsw.php">GSW (Flagship event)</a></li>
+                                <li><a href="sessions.php">Hands-on Sessions</a></li>
                                 <li class="dropdown-submenu">
                                     <button class="dropbtn-2">Technical Activities</button>
                                     <ul class="dropdown-menu-2">
-                                        <li><a href="#">Antenna Making and Satellite Tracking</a></li>
-                                        <li><a href="#">FM Transmitter</a></li>
-                                        <li><a href="#">How Things Work</a></li>
+                                        <li><a href="satellitetracking.php">Satellite Tracking</a></li>
+                                        <li><a href="radioastronomy.php">Radio Astronomy</a></li>
+                                        <li><a href="sstv.php">SSTV Module</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -88,23 +88,15 @@
                   </ul> -->
                         </li>
                         <span class="nav_right">
-                            <li>
-                                <a href="team.php">
+                        <li>
+                                <a href="blogs.php">
                                     <span class="big">
-                                        <img src="images/team.png" class="nav_icon">
+                                        <img src="images/blog.png" class="nav_icon">
                                     </span>
                                     <span class="small">
-                                        Team
+                                        Blogs
                                     </span>
                                 </a>
-                                <!-- <ul class="nav-dropdown">
-                  <li>
-                    <a href="#!">HRC Members</a>
-                  </li>
-                  <li>
-                    <a href="#!">Past Managers</a>
-                  </li>
-                </ul> -->
                             </li>
                             <li>
                                 <a href="media.php">
@@ -115,26 +107,16 @@
                                         Media
                                     </span>
                                 </a>
-                                <!-- <ul class="nav-dropdown">
-                    <li>
-                      <a href="#!">Featured articles</a>
-                    </li>
-                  </ul> -->
                             </li>
                             <li>
-                                <a href="blogs.php">
+                                <a href="team.php">
                                     <span class="big">
-                                        <img src="images/blog.png" class="nav_icon">
+                                        <img src="images/team.png" class="nav_icon">
                                     </span>
                                     <span class="small">
-                                        Blogs
+                                        Team
                                     </span>
                                 </a>
-                                <!-- <ul class="nav-dropdown">
-                  <li>
-                    <a href="#!">Stones of a Naive Radio</a>
-                  </li>
-                </ul> -->
                             </li>
                             <li>
                                 <a href="contact.php" class="nav_contact">Contact us</a>

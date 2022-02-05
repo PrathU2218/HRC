@@ -1,5 +1,7 @@
 #i01 {background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
     margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
    
 /* #i02 {
@@ -8,6 +10,10 @@
    background-repeat:no-repeat;
    background-position: left;
 } */
+
+.image-left {
+   margin-left: 40px;
+}
 
 #i03 {
    margin-left: 600px;
@@ -21,7 +27,7 @@
 }
 
 #i03left {
-   margin-left: 20px;
+   margin-left: 40px;
     font-family: Lora;
     color: orange;
    font-style: normal;
@@ -70,7 +76,7 @@
    color: #FFFFFF;
 }
 #i04 {
-   margin-left: 20px;  
+   margin-left: 40px;  
    font-family: Lato;
    font-style: normal;
    width: 50%;
@@ -81,7 +87,8 @@
 }
 
 #i04below {
-   margin-left: 20px; 
+   margin-left: 40px; 
+   text-align: justify;
     font-family: Lato;
    font-style: normal;
    font-weight: normal; 
@@ -89,38 +96,62 @@
    font-size: 18px;
    line-height: 29px;
    color: #FFFFFF;
+   width: 80%;
 }
 
 #i04below0 {
-    margin-left: 20px; 
+    margin-left: 40px; 
      font-family: Lato;
     font-style: normal;
+   text-align: justify;
     font-weight: normal; 
     margin-top: 100px;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
+   width: 80%;
+
  }
 
  #i04below2 {
-    margin-left: 20px; 
+    margin-left: 40px; 
      font-family: Lato;
     font-style: normal;
     font-weight: normal; 
+   text-align: justify;
     margin-top: 100px;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
+   width: 80%;
+
+ }
+
+ #i04below5 {
+    text-align: center;
+    text-align: justify;
+    font-family: Lato;
+   font-style: normal;
+   text-align: justify;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 29px;
+   width: 80%;
+   margin: 20px;
+   color: #FFFFFF;
  }
 
  #i04below3 {
-   margin-left: 20px; 
+   margin-left: 40px; 
     font-family: Lato;
    font-style: normal;
+   text-align: justify;
    font-weight: normal; 
    margin-top: 0px;
    font-size: 18px;
    line-height: 29px;
+   width: 80%;
+
    color: #FFFFFF;
 }
 
@@ -131,11 +162,12 @@
      color: white;
      padding: 10px;
      width: 80%;
+     font-size: 18px;
  }
 
  #h000{
      color: white;
-     margin-left: 15px;
+     margin-left: 40px;
      font-size: 24px;
      font-family: Lato;
      margin-top: 10px;
@@ -162,11 +194,32 @@
     margin-top: 25px;
 }
 
+#image {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.column {
+   margin-left: auto;
+   margin-right: auto;
+}
+
 #i06 {
    height: 300px;
    width: 500px;
-   margin: 0px 20px;
+   margin: 0px 20px 0px 20px;
+   margin-right: 20px;
+   margin-left: 40px;
 }
+
+#i060 {
+   height: 350px;
+   width: 500px;
+   margin: 0px 20px 0px 20px;
+   margin-right: 20px;
+   margin-left: 40px;
+}
+
 .row {
    display: flex;
  }

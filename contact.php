@@ -1,4 +1,4 @@
-<?php $title="Contact Us"; include "header.php"; ?>
+<?php $title="CONTACT US"; include "header.php"; ?>
 
 <?php 
 if(isset($_POST['submit'])){
@@ -20,28 +20,30 @@ if(isset($_POST['submit'])){
 
 <link rel="stylesheet" type="text/css" href="css/contact.css" />
 
-<div class="page_header">
-        <img src="images/hrc_logo2.jpeg" alt="Logo" class="page_logo">
-        <!-- <div class="page_heading"><?php echo($title) ?></div> -->
-</div>
-
 <div class="section1">
-   <div class="section2">
-       <form action="" method="post">
-        <input type="text" name="name" placeholder="Enter your Name">
-        <br>
-        <input type="text" name="email" placeholder="Enter Your Email">
-        <br>    
-        <textarea name="message" placeholder="Enter Your Message"></textarea>
-        <input type="submit" name="submit" value="Submit">
+    <div class="section2">
+        <form action="" method="post">
+            <input type="text" name="name" placeholder="Enter your Name">
+            <br>
+            <input type="text" name="email" placeholder="Enter Your Email">
+            <br>
+            <textarea name="message" placeholder="Enter Your Message"></textarea>
+            <input type="submit" name="submit" value="Submit">
         </form>
-   </div>
-   <div class="section3">
-       <div class="contact_info">Contact</div>
-       <div class="contact_info"> Email</div>
-       <div class="contact_info"> Address</div>
-   </div>
+    </div>
+    <div class="section3">
+        <div class="contact_info">
+            <div id="contact-head">Contact:</div>
+            <div id="contact-tail">Anuj Agrawal <br> Manager <br> Ham Radio Club</div>
+        </div>
+        <div class="contact_info">
+            <div id="contact-head">Email: </div>
+            <div id="contact-tail">hamradioclub.iitb@gmail.com</div>
+        </div>
+        <div class="contact_info">
+            <div id="contact-head">Address: </div>
+            <div id="contact-tail">Address Here !</div>
+        </div>
+    </div>
 </div>
-    
-
 <?php include "footer.php";?>
