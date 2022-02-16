@@ -40,7 +40,7 @@
     </div>
     <b id="h000">Specifications of the system</b><br><br>
     <div style="padding-bottom:20px;">
-        <table id="t01">
+        <table id="t01" style="margin-bottom: 20px;">
             <tr id="t02">
                 <td id="t03">SSTV Module</td>
                 <td id="t03">PD90 (90 seconds)</td>

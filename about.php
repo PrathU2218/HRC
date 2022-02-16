@@ -1,6 +1,8 @@
 <?php $title = 'ABOUT US'; include 'header.php'; ?>
 
 <head>
+<link rel="shortcut icon" href="https://scontent.fmaa8-1.fna.fbcdn.net/v/t1.6435-9/96085088_3092548687472776_5784224996612112384_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=BEHzD53VXYQAX_4G6Ez&_nc_ht=scontent.fmaa8-1.fna&oh=00_AT-YLQx8Ms2SOBb6m25N1ij0SXzlX7zrnHMG1Q5_Ap8Nxw&oe=6231E104" type="image/x-icon"/>
+
     <link rel="stylesheet" href="css/about.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">

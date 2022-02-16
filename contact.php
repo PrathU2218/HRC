@@ -19,6 +19,7 @@ if(isset($_POST['submit'])){
 ?>
 
 <link rel="stylesheet" type="text/css" href="css/contact.css" />
+<link rel="shortcut icon" href="https://scontent.fmaa8-1.fna.fbcdn.net/v/t1.6435-9/96085088_3092548687472776_5784224996612112384_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=BEHzD53VXYQAX_4G6Ez&_nc_ht=scontent.fmaa8-1.fna&oh=00_AT-YLQx8Ms2SOBb6m25N1ij0SXzlX7zrnHMG1Q5_Ap8Nxw&oe=6231E104" type="image/x-icon"/>
 
 <div class="section1">
     <div class="section2">

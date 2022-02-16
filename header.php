@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+<link rel="shortcut icon" href="https://scontent.fmaa8-1.fna.fbcdn.net/v/t1.6435-9/96085088_3092548687472776_5784224996612112384_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=BEHzD53VXYQAX_4G6Ez&_nc_ht=scontent.fmaa8-1.fna&oh=00_AT-YLQx8Ms2SOBb6m25N1ij0SXzlX7zrnHMG1Q5_Ap8Nxw&oe=6231E104" type="image/x-icon"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php if ($title === "") {
         $title = 'Default';
     } ?>
     <title><?php if (isset($title)) {
                 echo $title;
-            } ?> | Ham Radio Club &mdash; IIT Bombay</title>
+            } ?> | HAM RADIO CLUB, IIT BOMBAY</title>
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
@@ -66,7 +68,7 @@
 
                             <button class="dropbtn">What we do</button>
                             <ul class="dropdown-menu-1">
-                                <li><a href="gsw.php">GSW (Flagship event)</a></li>
+                                <li><a href="gsw.php">Ground Station Workshop</a></li>
                                 <li><a href="sessions.php">Hands-on Sessions</a></li>
                                 <li class="dropdown-submenu">
                                     <button class="dropbtn-2">Technical Activities</button>
