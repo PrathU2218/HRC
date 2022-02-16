@@ -1,6 +1,9 @@
 <?php $title = "BLOGS";
 include "header.php"; ?>
+<link rel="shortcut icon" href="https://scontent.fmaa8-1.fna.fbcdn.net/v/t1.6435-9/96085088_3092548687472776_5784224996612112384_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=BEHzD53VXYQAX_4G6Ez&_nc_ht=scontent.fmaa8-1.fna&oh=00_AT-YLQx8Ms2SOBb6m25N1ij0SXzlX7zrnHMG1Q5_Ap8Nxw&oe=6231E104" type="image/x-icon"/>
+
 <link rel="stylesheet" type="text/css" href="css/blogs.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 <!-- <div> -->
 <script>
 send = (num) => {
@@ -124,15 +127,16 @@ send = (num) => {
             </a>
             <a class="card">
                 <div class="card-hero">
-                    <img src="https://hrciitb.files.wordpress.com/2021/11/arsi-1.png?w=1024" width="288" height="200"
+                    <img src="https://hrciitb.files.wordpress.com/2021/10/intro.png?w=1024" width="288" height="200"
                         class="img" />
                 </div>
                 <div class="card-header">
-                    <h3 onClick="send(5)">Let’s Talk Ham: An interview series</h3>
+                    <h3 onClick="send(5)">Let’s Talk Ham</h3>
                 </div>
                 <div class="card-body">
                     <p>An interview series on the significant contributions made by amateur radio organizations in India
                         to encourage more and more people to carry out ham activities.</p>
+                        <br>
                 </div>
                 <!-- <div class="card-footer">
                     <div class="footer-item">

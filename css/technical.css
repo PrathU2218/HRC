@@ -155,7 +155,9 @@
 }
 
 #i04below3 {
-    margin-left: 40px;
+    /* margin-left: 50px; */
+    text-align: center;
+    margin-left: 100px;
     font-family: Lato;
     font-style: normal;
     text-align: justify;
@@ -221,7 +223,7 @@
     width: 500px;
     margin: 0px 20px 0px 20px;
     margin-right: 20px;
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 #i060 {
