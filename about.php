@@ -81,7 +81,7 @@
                 <!-- <div> -->
                 <div class="col-sm-6">
                     <div>
-                        <img src="./images/yagi.jpg" id="i06" class="image-left"></img>
+                        <img src="./images/yagi uda.png" id="i06" class="image-left"></img>
                     </div>
                 </div>
                 <!-- </div> -->
@@ -150,7 +150,7 @@
                 <!-- <div> -->
                 <div class="col-sm-6">
                     <div>
-                        <img src="./images/double.jpg" id="i06"></img>
+                        <img src="./images/double cross.png" id="i06"></img>
                     </div>
                 </div>
                 <!-- </div> -->
@@ -191,7 +191,7 @@
                 <!-- <div> -->
                 <div class="col-sm-6">
                     <div>
-                        <img src="./images/amplifier.jpg" id="i06" class="image-left"></img>
+                        <img src="./images/amplifiers.png" id="i06" class="image-left"></img>
                     </div>
                 </div>
                 <!-- </div> -->
@@ -217,7 +217,7 @@
                 <!-- <div> -->
                 <div class="col-sm-6">
                     <div>
-                        <img src="images/cable.jpg" id="i06"></img>
+                        <img src="images/cabels.png" id="i06"></img>
                     </div>
                 </div>
                 <div class="col-sm-6" id="contentcol">
@@ -262,7 +262,7 @@
                 <!-- <div> -->
                 <div class="col-sm-6">
                     <div>
-                        <img src="images/rotator.jpg" id="i06" class="image-left"></img>
+                        <img src="images/antenna rotator.png" id="i06" class="image-left"></img>
                     </div>
                 </div>
                 <!-- </div> -->

@@ -22,7 +22,7 @@
             <div class="nav-container">
                 <div class="brand">
                     <a href="index.php">
-                        <img src="images/Group 14.png" id="im01">
+                        <img src="images/hrciitblogo.jpg" id="imz1">
                     </a>
                 </div>
                 <nav>
@@ -30,7 +30,7 @@
                     <ul class="nav-list" id="testing">
                         <li>
                             <span id="about">
-                                <a href="about.php">About Us</a>
+                                <a href="about.php" class="hover-underline-animation">About Us</a>
                             </span>
                             <!-- <ul class="nav-dropdown">
                     <li>
@@ -66,23 +66,23 @@
                                 </li>
                             </ul> -->
 
-                            <button class="dropbtn">What we do</button>
+                            <button class="dropbtn" class="hover-underline-animation">What we do</button>
                             <ul class="dropdown-menu-1">
-                                <li><a href="gsw.php">Ground Station Workshop</a></li>
-                                <li><a href="sessions.php">Hands-on Sessions</a></li>
+                                <li><a href="gsw.php"class="hover-underline-animation">Ground Station Workshop</a></li>
+                                <li><a href="sessions.php"class="hover-underline-animation">Hands-on Sessions</a></li>
                                 <li class="dropdown-submenu">
                                     <button class="dropbtn-2">Technical Activities</button>
                                     <ul class="dropdown-menu-2">
-                                        <li><a href="satellitetracking.php">Satellite Tracking</a></li>
-                                        <li><a href="radioastronomy.php">Radio Astronomy</a></li>
-                                        <li><a href="sstv.php">SSTV Module</a></li>
+                                        <li><a href="satellitetracking.php"class="hover-underline-animation">Satellite Tracking</a></li>
+                                        <li><a href="radioastronomy.php"class="hover-underline-animation">Radio Astronomy</a></li>
+                                        <li><a href="sstv.php"class="hover-underline-animation">SSTV Module</a></li>
                                     </ul>
                                 </li>
                             </ul>
 
                         </li>
                         <li>
-                            <a href="hamexam.php">Ham Exam</a>
+                            <a href="hamexam.php" class="hover-underline-animation">Ham Exam</a>
                             <!-- <ul class="nav-dropdown">
                     <li>
                       <a href="#!">Process</a>

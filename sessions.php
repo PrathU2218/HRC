@@ -159,7 +159,7 @@
 
             <div class="row">
                 <div class="col-md-6" style="margin:auto;">
-                    <div class="session_content">Demonstration on the hands-on design of an FM transmitter. Students then build their own FM transmitter and transmit signals using that. </div>
+                    <div class="session_content">FM transmitter is commonly known as Television transmitter. It is the whole unit that takes the audio signal as an input and delivers FM modulated waves to the antenna as an output to transmit. The main use of FM transmitters is for Radio communications. We conduct sessions to demonstrate the hands-on design of an FM transmitter. Students then build their own FM transmitter and transmit signals using that.</div>
                 </div>
                 <div class="col-md-6"><div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
