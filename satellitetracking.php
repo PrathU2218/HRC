@@ -96,6 +96,7 @@
             <div class="column">
                 <div id="i04below5" style="padding:3% 3%; font-size: 18px; font-style: normal;
    text-align: justify;
+   text-align: center;
    font-weight: normal;
    font-family: Lato;">
                     The amateur radio enthusiasts who successfully receive and decode these images are awarded by

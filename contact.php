@@ -23,14 +23,15 @@ if(isset($_POST['submit'])){
 
 <div class="section1">
     <div class="section2">
-        <form action="" method="post">
+        <!-- <form action="" method="post">
             <input type="text" name="name" placeholder="Enter your Name">
             <br>
             <input type="text" name="email" placeholder="Enter Your Email">
             <br>
             <textarea name="message" placeholder="Enter Your Message"></textarea>
             <input type="submit" name="submit" value="Submit">
-        </form>
+        </form> -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenEKABMcHm0RApyc5hjOEM-7Lw2wHpCx4TotmFMy0BV_tuBA/viewform?embedded=true" width="640" height="709" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
     <div class="section3">
         <div class="contact_info">

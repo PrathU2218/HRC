@@ -16,7 +16,7 @@ include 'header.php'; ?>
 <div class="container-fluid" id="i2">
 <div class="row">
   <div class="col-sm-6" id="top">
-    <div class="card">
+    <div class="card border-dark text-white bg-dark mb-3">
       <div class="card-body d-flex flex-column">
           <img src="images/media1.png" class="img1">
         <h5 class="card-title">Citizen Matters Mumbai</h5>
@@ -27,7 +27,7 @@ include 'header.php'; ?>
     </div>
   </div>
   <div class="col-sm-6" id="top">
-    <div class="card" id="card2">
+    <div class="card border-dark text-white bg-info mb-3" id="card2">
       <div class="card-body d-flex flex-column">
           <img src="images/media2.png" class="img2">
         <h5 class="card-title">Anecdotes of an Aerospace Nerd Blog</h5>

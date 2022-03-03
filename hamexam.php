@@ -50,15 +50,17 @@ include 'header.php'; ?>
               <ul id="list">
                   <li>Application can be downloaded from <a href ="https://saralsanchar.gov.in/" target="_blank" class="link1">here</a>. Exam application along with the fee of Rs. 100 is to be paid online. The examination can be conducted in your own town provided there are a sufficient number of applicants.</li>
                   <li>On passing the examination, you will be awarded the license on payment of the required license fee: Rs. 1000 for 20 years and Rs. 2000 if you want the license for a lifetime (80 years), on <a href="http://bharatkosh.gov.in/" target="_blank">http://bharatkosh.gov.in/</a></li>
+                <li>WPC grants the license along with the user-chosen callsign. Indian amateur radio operators are allotted only the VU call-sign prefix. VU call-signs are listed according to license grade: for general license holders, the call-sign prefix is VU2; for restricted license holders, the prefix is VU3.</li>
               </ul>
+              Reach out to us for the study material or any other queries regarding the ham license exam.
          </div>
     </div> 
-    <div id="text10">
-      WPC grants the license along with the user-chosen callsign. Indian amateur radio operators are allotted only the VU call-sign prefix. VU call-signs are listed according to license grade: for general license holders, the call-sign prefix is VU2; for restricted license holders, the prefix is VU3.
-   </div>
-   <div id="text11">   
+    <!-- <div id="text10">
+      
+   </div> -->
+   <!-- <div id="text11">   
       Reach out to us for the study material or any other queries regarding the ham license exam.
-    </div>
+    </div> -->
 </div>
 
 <?php include 'footer.php'; ?>

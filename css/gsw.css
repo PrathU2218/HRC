@@ -14,12 +14,13 @@
 }
 
 #i05 {
-    position:relative;
-    right:10%;
+    /* position:relative; */
+    /* right:10%; */
     font-family: Lato;
     font-style: normal;
+    text-align: justify;
     font-weight: normal;
-    width:45%;
+    width:40%;
     font-size: 18px;
     line-height: 29px;
     color: #FFFFFF;
