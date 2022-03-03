@@ -1,4 +1,4 @@
-<?php $title="HAM RADIO CLUB"; include "header.php"; ?>
+<?php $title="HAM RADIO CLUB <br> IIT BOMBAY"; include "header.php"; ?>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700'>
@@ -14,9 +14,9 @@
 <body>
     <div class="background">
         <img src="images/hrc_logo2.jpeg" />
-        <h2>“We bring people, communication, and electronics together.” </h2>
+        <h2 id="down">“We bring people, communication, and electronics together.” </h2>
     </div>
-    <div class="container" id="i02below">
+    <div class="container" id="i02below0">
         <!-- <div class="row">
 
             <div class="column">
@@ -39,11 +39,11 @@
 
         </div> -->
         <div class="intro-text">
-            <h3> Ham Radio Club has the vision to foster and grow the amateur radio community at IIT Bombay and
+             Ham Radio Club has the vision to foster and grow the amateur radio community at IIT Bombay and
                 beyond. Ham radio is a hobby and technology that allows us to interact with people across the globe
                 using wireless communication. As a subsidiary of the IIT Bombay Student Satellite Program, we aim to
                 set up a full-fledged autonomous ground station with advanced and updated technology while attaining
-                numerous ham radio licenses.</h3>
+                numerous ham radio licenses.
         </div>
     </div>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
@@ -62,21 +62,21 @@
                         <div class="item active " data-slide-number="0">
                             <img src="images/1_1.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p>Ground Station of our own student satellite, Pratham launched in 2016</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="1">
                             <img src="images/2.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p>Ground Station Workshop’ 2020</p>
                             </div>
                         </div>
                         <div class="item" data-slide-number="2">
                             <img src="images/3.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p>Hands on antenna making sessions followed by satellite tracking sessions
                                 </p>
                             </div>
@@ -84,7 +84,7 @@
                         <div class="item " data-slide-number="3">
                             <img src="images/4.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p> Online NOAA satellite tracking session using webSDRs, Covid couldn't stop us
                                     tracking!</p>
                             </div>
@@ -92,28 +92,28 @@
                         <div class="item " data-slide-number="4">
                             <img src="images/5.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p>Our radio shack with all the equipment we use to perform ham radio activities</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="5">
                             <img src="images/6.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p>Collaboration between MARI & HRC</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="6">
                             <img src="images/7.jpg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p>A talk on the overview of ham radio by the Mumbai Amateur Radio Organisation</p>
                             </div>
                         </div>
                         <div class="item " data-slide-number="7">
                             <img src="images/8.jpeg" height="100%">
                             <div class="carousel-caption">
-                                <h3> &nbsp; </h3>
+                                <!-- <h3> &nbsp; </h3> -->
                                 <p>Student satellite team members tracking the ISS using a Yagi-uda antenna + receiver
                                     setup</p>
                             </div>

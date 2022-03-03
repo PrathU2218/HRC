@@ -38,8 +38,8 @@
             </div>
             <div class="column">
                 <div>
-                    <img src="./images/radio_1.jpg" id="i06" class="image-left" style="margin-bottom: 20px;"></img>
-                    <img src="./images/radio_2.jpg" id="i06" class="image-left"></img>
+                    <img src="./images/radio_1.jpg" id="i06r" class="image-left"></img>
+                    <img src="./images/radio_2.jpg" id="i06r" class="image-left"></img>
                 </div>
             </div>
         </div>

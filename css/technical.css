@@ -1,6 +1,6 @@
 #i01 {
     background-image: linear-gradient(113.38deg, #2A5470, #4C4177);
-    margin-bottom: 0px;
+    padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 350px;
@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
     padding: 0px;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 
 #i02left {
@@ -102,7 +102,7 @@
 }
 
 #i04below {
-    margin-left: 40px;
+    margin-left: 8%;
     text-align: justify;
     font-family: Lato;
     font-style: normal;
@@ -150,7 +150,8 @@
     font-size: 18px;
     line-height: 29px;
     width: 80%;
-    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
     color: #FFFFFF;
 }
 
@@ -221,9 +222,15 @@
 #i06 {
     height: 300px;
     width: 500px;
-    margin: 0px 20px 0px 20px;
-    margin-right: 20px;
-    margin-left: 0px;
+    margin: 5% 20% 0% 10%;
+    /* margin-right: 25%; */
+    /* margin-left: 0px; */
+}
+
+#i06r {
+    height: 300px;
+    width: 500px;
+    margin: 0% 20% 0% 10%;
 }
 
 #i060 {
