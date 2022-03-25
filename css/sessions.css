@@ -21,11 +21,13 @@
     padding:10px 0px;
 }
 
+
+
 .session_heading{
     color:white;
     font-size:48px;
     text-align: center;
-    padding:1rem;
+    /* padding:1rem; */
 }
 
 .session_content{
@@ -33,7 +35,7 @@
     font-size:18px;
     padding: 10px 10px 10px 0px;
     /* padding-left: 50px; */
-   position:relative;
+   /* position:relative; */
    top:40%;
    text-align: justify;
 }

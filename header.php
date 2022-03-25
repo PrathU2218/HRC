@@ -9,9 +9,7 @@
     <?php if ($title === "") {
         $title = 'Default';
     } ?>
-    <title><?php if (isset($title)) {
-                echo $title;
-            } ?> | HAM RADIO CLUB, IIT BOMBAY</title>
+    <title><?php ?> | HAM RADIO CLUB, IIT BOMBAY</title>
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
@@ -30,7 +28,7 @@
                     <ul class="nav-list" id="testing">
                         <li>
                             <span id="about">
-                                <a href="about.php" class="hover-underline-animation">About Us</a>
+                                <a href="about.php" class="hover-underline-animation">About us</a>
                             </span>
                             <!-- <ul class="nav-dropdown">
                     <li>
@@ -66,21 +64,31 @@
                                 </li>
                             </ul> -->
 
-                            <button class="dropbtn" class="hover-underline-animation">What we do</button>
+                            <button class="dropbtn" class="hover-underline-animation">Events</button>
                             <ul class="dropdown-menu-1">
                                 <li><a href="gsw.php"class="hover-underline-animation">Ground Station Workshop</a></li>
                                 <li><a href="sessions.php"class="hover-underline-animation">Hands-on Sessions</a></li>
-                                <li class="dropdown-submenu">
+                                <!-- <li class="dropdown-submenu">
                                     <button class="dropbtn-2">Technical Activities</button>
                                     <ul class="dropdown-menu-2">
                                         <li><a href="satellitetracking.php"class="hover-underline-animation">Satellite Tracking</a></li>
                                         <li><a href="radioastronomy.php"class="hover-underline-animation">Radio Astronomy</a></li>
                                         <li><a href="sstv.php"class="hover-underline-animation">SSTV Module</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                             </ul>
 
                         </li>
+
+                        <li class="dropdown">
+                        <button class="dropbtn" class="hover-underline-animation">Technical Activities</button>
+                            <ul class="dropdown-menu-1">
+                                <li><a href="satellitetracking.php" class="hover-underline-animation">Antenna making and satellite tracking</a></li>
+                                <li><a href="radioastronomy.php" class="hover-underline-animation">Radio Astronomy</a></li>
+                                <li><a href="sstv.php" class="hover-underline-animation">SSTV Module</a></li>
+                            </ul>
+                        </li>
+
                         <li>
                             <a href="hamexam.php" class="hover-underline-animation">Ham Exam</a>
                             <!-- <ul class="nav-dropdown">
