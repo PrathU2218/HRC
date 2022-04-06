@@ -25,7 +25,7 @@
 
 .session_heading{
     color:white;
-    font-size:48px;
+    font-size:30px;
     text-align: center;
     /* padding:1rem; */
 }
@@ -52,6 +52,7 @@
 @media screen and (max-width:789px){
     .session_content{
         top:0px;
+        padding: 0px 10px;
     }
     iframe{
         width: 100%;

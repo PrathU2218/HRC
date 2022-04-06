@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
             <textarea name="message" placeholder="Enter Your Message"></textarea>
             <input type="submit" name="submit" value="Submit">
         </form> -->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenEKABMcHm0RApyc5hjOEM-7Lw2wHpCx4TotmFMy0BV_tuBA/viewform?embedded=true" width="640" height="709" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenEKABMcHm0RApyc5hjOEM-7Lw2wHpCx4TotmFMy0BV_tuBA/viewform?embedded=true" width="100%"; height="709px"; frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
     <div class="section3">
         <div class="contact_info">
@@ -44,8 +44,8 @@ if(isset($_POST['submit'])){
                     href="mailto:hamradioclub.iitb@gmail.com">hamradioclub.iitb@gmail.com</a></div>
         </div>
         <div class="contact_info">
-            <div id="contact-head">Contact: </div>
-            <div id="contact-tail">
+            <!-- <div id="contact-head">Contact: </div> -->
+            <div id="contact-tail" style="margin-top: -40px;">
                 <a id="facebook" href="https://www.facebook.com/HamclubIITB" target="_blank"><i
                         class="fab fa-facebook-f"></i></a>
                 <a id="youtube" href="https://www.youtube.com/channel/UCM-huMvA7y-FYloRkw3beKA" target="_blank"><i

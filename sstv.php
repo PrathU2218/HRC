@@ -19,13 +19,13 @@
                 </div>
             </div>
             <div class="column">
-                <div id="i04below3new">
+                <div id="i04below3new" style="display: block;">
                     Slow Scan Television is a picture transmission method used mainly by ham radio operators. Static
                     pictures are transmitted and received via analog frequency modulation in HF, UHF and VHF bands.
                     Every pixel in an image is represented as a sinusoid of different frequencies and color is achieved
                     by encoding the brightness of each color component separately. Demodulation can generate an audio
                     representation of the image.
-                    <br/>
+                    <br/><br/>
                     <b> Aim of the mission</b>
                     <br>
                     <ul>
@@ -57,7 +57,7 @@
             <tr id="t02">
                 <td id="t03">Power consumption</td>
                 <td id="t03">
-                    <5.5W< /td>
+                    5.5W </td>
             </tr>
             <tr id="t02">
                 <td id="t03">Cost (approx.) of Module</td>

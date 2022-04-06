@@ -34,27 +34,33 @@ include 'header.php'; ?>
      </div>
   </div>
   <div class="row" id="left">
-      <div class="col-sm-6" id="linear">
+      <div class="col-sm-6" id="text8">
+      Check out our Instagram series,<a href="https://www.instagram.com/p/CGurROOng8r/" target="_blank">‘Morse Mania’</a>, where we have posted the graphical representation of morse code for every alphabet and digit, which can assist in remembering the morse codes visually.
 
       </div>
       <div class="col-sm-6" id="text8">
-          Check out our Instagram series,<a href="https://www.instagram.com/p/CGurROOng8r/" target="_blank">‘Morse Mania’</a>, where we have posted the graphical representation of morse code for every alphabet and digit, which can assist in remembering the morse codes visually.
+      <p id="t1">PROCEDURE FOR THE APPLICATION OF HAM RADIO EXAM:</p>
+
       </div>
   </div>
   <div class="row" id="left">
             <div class="col-sm" style="text-align: center;">
-                <img src="images\MorseMania.jpg" class="img1">
+                <img src="images\MorseMania.jpg" style="width: 75%; height: 330px; margin-top:15px;" class="img1">
             </div>
           <div class="col-sm" id="text9">
-              <p id="t1">PROCEDURE FOR THE APPLICATION OF HAM RADIO EXAM:</p>
               <ul id="list">
                   <li>Application can be downloaded from <a href ="https://saralsanchar.gov.in/" target="_blank" class="link1">here</a>. Exam application along with the fee of Rs. 100 is to be paid online. The examination can be conducted in your own town provided there are a sufficient number of applicants.</li>
                   <li>On passing the examination, you will be awarded the license on payment of the required license fee: Rs. 1000 for 20 years and Rs. 2000 if you want the license for a lifetime (80 years), on <a href="http://bharatkosh.gov.in/" target="_blank">http://bharatkosh.gov.in/</a></li>
                 <li>WPC grants the license along with the user-chosen callsign. Indian amateur radio operators are allotted only the VU call-sign prefix. VU call-signs are listed according to license grade: for general license holders, the call-sign prefix is VU2; for restricted license holders, the prefix is VU3.</li>
               </ul>
-              Reach out to us for the study material or any other queries regarding the ham license exam.
+              
          </div>
+         <div style="text-align: center; color: white; font-size: 18px; padding-top: 10px;">
+    Reach out to us for the study material or any other queries regarding the ham license exam.
+    </div>
+        
     </div> 
+    
     <!-- <div id="text10">
       
    </div> -->
