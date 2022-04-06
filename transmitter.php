@@ -1,7 +1,7 @@
-<?php $title="FM Tranmitter"; include "header.php"; ?>
 
 <head>
     <link rel="stylesheet" href="css/sessions.css">
+    <link rel="stylesheet" href="css/technical.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -10,10 +10,9 @@
     <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css" />
     <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
 </head>
-
-<body>
+<?php $title="FM Transmitter"; include "header.php"; ?>
     <div class="whole">
-        <div class="container">
+        <div class="container" id="i01">
             <div id="session2">
 
                 <div class="session_heading">FM Transmitter </div>
@@ -28,6 +27,5 @@
             </div>
         </div>
     </div>
-</body>
 
 <?php include "footer.php"; ?>

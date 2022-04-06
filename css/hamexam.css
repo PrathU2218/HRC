@@ -151,9 +151,9 @@ line-height: 29px;
 }
 
 .img1 {
-    margin-top: 40px;
-    width: 78%;
-    height: 420px;
+    margin-top: 15px;
+    width: 80%;
+    height: 320px;
 }
 
 @media screen and (max-width: 800px) {

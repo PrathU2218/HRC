@@ -15,9 +15,9 @@
    background-position: left;
 } */
 
-.image-left {
+/* .image-left {
     margin-left: 40px;
-}
+} */
 
 #i03 {
     margin-left: 600px;
@@ -102,16 +102,17 @@
 }
 
 #i04below {
-    margin-left: 8%;
+    /* margin-left: 8%; */
     text-align: justify;
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
     margin-top: 50px;
     font-size: 18px;
-    line-height: 29px;
+    padding: 0px 20px;
+    /* line-height: 29px; */
     color: #FFFFFF;
-    width: 80%;
+    /* width: 80%; */
 }
 
 #i04below0 {
@@ -141,32 +142,63 @@
 }
 
 #i04below5 {
-    text-align: center;
-    text-align: justify;
+    /* text-align: center; */
+    /* text-align: justify; */
     font-family: Lato;
     font-style: normal;
     text-align: justify;
     font-weight: normal;
     font-size: 18px;
-    line-height: 29px;
-    width: 80%;
+    /* line-height: 29px; */
+    /* width: 80%; */
     margin-right: auto;
+    padding: 0px 20px;
     margin-left: auto;
     color: #FFFFFF;
 }
-
+@media only screen and (min-width: 900px) {
 #i04below3 {
     /* margin-left: 50px; */
     text-align: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font-family: Lato;
+    align-items: center;
     font-style: normal;
     text-align: justify;
     font-weight: normal;
     margin-top: 0px;
     font-size: 18px;
-    line-height: 29px;
-    width: 80%;
+    /* line-height: 29px; */
+    /* width: 80%; */
+    color: #FFFFFF;
+}
+}
+
+@media only screen and (max-width: 899px) {
+    #i04below3{
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+#i04below3new {
+    /* margin-left: 50px; */
+    text-align: center;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 50%; */
+    font-family: Lato;
+    /* margin-right: 20px; */
+    font-style: normal;
+    text-align: justify;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 18px;
+    /* line-height: 29px; */
+    width: 90%;
     color: #FFFFFF;
 }
 
@@ -227,15 +259,15 @@
     /* margin-left: 0px; */
 }
 
-#i06r {
+/* #i06r {
     height: 300px;
     width: 500px;
     margin: 0% 20% 0% 10%;
-}
+} */
 
 #i060 {
-    height: 350px;
-    width: 500px;
+    height: 370px;
+    width: 520px;
     margin: 0px 20px 0px 20px;
     margin-right: 20px;
     margin-left: 40px;
@@ -271,9 +303,9 @@
     #i06 {
         height: 250px;
         width: 300px;
-        margin: 0px 20px 0px 20px;
-        margin-right: 20px;
-        margin-left: 40px;
+        margin: 0px 20px 0px 10px;
+        /* margin-right: 30px;
+        margin-left: 30px; */
     }
     #i060 {
         height: 250px;

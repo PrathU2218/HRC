@@ -93,7 +93,7 @@ include 'header.php'; ?>
   </li>
   <li class="member">
     <div class="member-image">
-      <img src="images/teams/ritik.jpg">
+      <img src="images/ritik.png">
     </div>
     <div class="member-info">
       <h3>Ritik Bilala</h3>

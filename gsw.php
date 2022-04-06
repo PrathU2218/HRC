@@ -1,4 +1,4 @@
-    <?php $title="Ground Station Workshop"; include "header.php"; ?>
+    <?php $title="GROUND STATION <br>WORKSHOP"; include "header.php"; ?>
 
 <head>
     <link rel="stylesheet" href="css/gsw.css">

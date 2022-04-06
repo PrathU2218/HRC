@@ -62,17 +62,37 @@ body {
     #spacing {
         padding-top: 80px;
     }
+    .carousel-caption p {
+        margin-left: 0%;
+        margin-top: 0%;
+        padding: 0%;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.8);
+        font-size: 18px;
+        font-family: 'Lato';
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
 }
 
+@media only screen and (min-width: 900px) {
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
     width: 1200px;
     height: 1200px;
 }
+}
 
 .carousel-inner>.item>img {
     margin: 0%;
     margin-left: 0%;
+}
+
+@media only screen and (max-width: 899px) {
+    .carousel-inner>.item>a>img {
+         width: 100%;
+         height: auto;
+    }
 }
 
 .item {
@@ -153,6 +173,7 @@ body {
 }
 
 .gallery {
+
     margin: 0px 50px;
 }
 
